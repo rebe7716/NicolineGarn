@@ -19,17 +19,10 @@
     --TitilliumLight--: "TitilliumLight", sans-serif;
     --TitilliumBold--: "TitilliumBold", sans-serif;
 
-
   }
 
   __________
-/* FONTS */
-
-  /* @font-face {
-    font-family: Kannada;
-    src: url(/font/KannadaSangamMN.woff2) format("woff2");
-  } */
-
+/* FONTS  LOADED*/
   @font-face {
     font-family: Khmer;
     src: url(/font/KhmerMEF1Regular.woff2) format("woff2");
@@ -56,46 +49,151 @@
   }
   
 
+  
+
+
+
+
+
+/* _________________ MOBILE  390PX */
+  /* -------FORSIDE-------- */
+
+    /* fonte mobile */
+
+
+
   .heading1red {
-      font-size: 4.688rem;
-      color: #FF4D00;
-      font-family: var(--Heebo--);
-  }
-
-  .heading2 {
-    font-size: 4.375rem;
-    color: var(--sort);
+    font-size: 2rem;
+    color: #FF4D00;
     font-family: var(--Heebo--);
-  }
+    padding-left: 0.2rem;
+    padding-left: 0.2rem;
 
-  .paragraf {
-      font-size: 1.188rem;
-      color:var(--sort);
-      font-family: var(--TitilliumLight--);
-      letter-spacing: 0.1rem;
-  }
+}
 
-  .paragraf_topbanner {
+
+.heading1red_animation {
+  
+}
+
+.heading2 {
+  font-size: 4.375rem;
+  color: var(--sort);
+  font-family: var(--Heebo--);
+}
+
+
+
+
+.paragraf {
     font-size: 1rem;
     color:var(--sort);
-    font-family: var(--TitilliumLight--);
+    font-family: var(--TitilliumRegular--);
     letter-spacing: 0.1rem;
 }
 
-  .menuknap {
-      font-size: 1.3rem;
-      color:var(--sort);
-      font-family: var(--TitilliumRegular--);
-  }
+
+  .paragraf_topbanner {
+    font-size: 0.6rem;
+    color:var(--sort);
+    font-family: var(--TitilliumRegular--);
+    letter-spacing: 0.1rem;
+    padding: 0.5rem;
+
+}
+
+.CTA_tekst {
+  font-size: 1.2rem;
+    color:var(--sort);
+    font-family: var(--TitilliumRegular--);
+    letter-spacing: 0.1rem;
+    text-decoration: underline;
+    text-shadow: 2px 2px rgba(199, 199, 199, 0.813);
+}
 
 
 
-_________________
-  /* -------FORSIDE-------- */
+  /* ---Menu---- */
 
-  /* Menu */
+.logo_wrapper {
+display: flex;
+place-content: center;
+padding-top: 0.2rem;
+padding-bottom: 0.5rem;
+}
 
-  
+.logo {
+  width: 10rem;
+}
+
+
+.over_header_banner {
+  color: black;
+  background-color: #EED6D6;
+  display: flex;
+  justify-content: center;
+}
+
+.menuknap {
+  font-size: 0.9rem;
+  color:var(--sort);
+  font-family: var(--TitilliumRegular--);
+  letter-spacing: 0.1rem;
+}
+
+.menuen {
+  padding-bottom: 0.5rem;
+  display: block;
+  justify-content: center;
+}
+
+.menumenu {
+  justify-content: center;
+}
+
+.header_background_wrapper {
+  background-image: url(/pics/Skærmbillede\ 2022-11-28\ kl.\ 19.35.25.png);
+}
+
+
+.menuen_wrapper {
+  background-color: #ffe5e55c;
+}
+
+
+  /* hero */
+
+.hero_section {
+  height: 20rem;
+  width: auto;
+  display: grid;
+  align-items: center;
+  justify-content: center; 
+}
+
+.hero_section_wrapper {
+  margin: 0;
+  display: grid;
+  align-items: center;
+  justify-content: center;  
+  padding-left: 1rem; 
+  padding-right: 1rem; 
+
+ }
+
+ #velkommen_tekst {
+  text-align: center;
+ }
+
+ #CTA_knap {
+   margin-top: 2rem;
+ }
+
+
+
+
+
+
 
 
 
