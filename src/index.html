@@ -1,13 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tailwind Starter Template</title>
-    <link rel="stylesheet" href="tailwind.css" />
-  </head>
-  <body>
-    <script type="module" src="index.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet" >
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+
+    <section class="over_header_banner bg-lyspink pt-80 pb-1 ">
+        <p class="paragraf_topbanner flex justify-center">Køb dit garn i butikken på Fyensgade 1, 2200 København N ♥ Man - Fre: 10:00 - 17:30 | Lør: 10:00 - 15:00 | Søn & helligdage: Lukket   </p>
+    </section>
+<header>
+
+
+    <div class="grid bg-pink bg-opacity-30 place-content-center sm:flex sm:place-content-between sm:pr-14 sm:pl-14 md:pr-20 md:pl-20"
+    >
+      <div class="grid place-content-center gap-6 pb-10 sm:pb-0">
+        <img class="volvo w-32" src="/pics/nicolinegarn_logo-frigjort.png" alt="logo" />
+      </div>
+
+      <nav >
+        <ul class="flex gap-6 text-base xl:gap-8" id="menu">
+          <li
+            class="menuknap cursor-pointer font-medium xl:text-xl"
+          >
+            <a href="/src/garn.html">Garn</a>
+          </li>
+          <li class="menuknap cursor-pointer font-medium xl:text-xl">
+            <a href="/src/accesories.html">Tilbehør</a>
+          </li>
+          <li class="menuknap cursor-pointer font-medium xl:text-xl">
+            <a href="">Spørgsmål</a>
+          </li>
+          <li class="menuknap cursor-pointer font-medium xl:text-xl">
+            <a href="/src/voreshistorie.html">Vores historie</a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+    </header>
+
+    <h1 class="text-pink">Halløj</h1>
+    
+
+
+    <script src="/script/burger.js"></script>
+</body>
 </html>

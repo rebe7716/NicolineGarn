@@ -1,0 +1,104 @@
+/*DESIGN SYSTEM*/
+
+:root {
+    /* colorpalette */
+    --beige: #FFF7EF;
+    --lyspink: #FFF5F5;
+    --pink: #EED6D6;
+    --red: #FF4D00;
+    --sort: #000000;
+    --hvid: #FFFFFF;
+  
+    /* ------- header desk ------- */
+    --desk-bg-color-header: transparant;
+    --link-color: #FF4D00;
+
+    /* ------- fonte defineret ------- */
+    --Heebo--: "Heebo", sans-serif;
+    --TitilliumRegular--: "TitilliumRegular", sans-serif;
+    --TitilliumLight--: "TitilliumLight", sans-serif;
+    --TitilliumBold--: "TitilliumBold", sans-serif;
+
+
+  }
+
+  __________
+/* FONTS */
+
+  /* @font-face {
+    font-family: Kannada;
+    src: url(/font/KannadaSangamMN.woff2) format("woff2");
+  } */
+
+  @font-face {
+    font-family: Khmer;
+    src: url(/font/KhmerMEF1Regular.woff2) format("woff2");
+  }
+
+  @font-face {
+    font-family: Heebo;
+    src: url(/font/Heebo-VariableFont_wght.woff2) format("woff2");
+  }
+
+  @font-face {
+    font-family: TitilliumRegular;
+    src: url(/font/TitilliumWeb-Regular.woff2) format("woff2");
+  }
+
+  @font-face {
+    font-family: TitilliumLight;
+    src: url(/font/TitilliumWeb-Light.woff2) format("woff2");
+  }
+  
+  @font-face {
+    font-family: TitilliumBold;
+    src: url(/font/TitilliumWeb-SemiBold.woff2) format("woff2");
+  }
+  
+
+  .heading1red {
+      font-size: 4.688rem;
+      color: #FF4D00;
+      font-family: var(--Heebo--);
+  }
+
+  .heading2 {
+    font-size: 4.375rem;
+    color: var(--sort);
+    font-family: var(--Heebo--);
+  }
+
+  .paragraf {
+      font-size: 1.188rem;
+      color:var(--sort);
+      font-family: var(--TitilliumLight--);
+      letter-spacing: 0.1rem;
+  }
+
+  .paragraf_topbanner {
+    font-size: 1rem;
+    color:var(--sort);
+    font-family: var(--TitilliumLight--);
+    letter-spacing: 0.1rem;
+}
+
+  .menuknap {
+      font-size: 1.3rem;
+      color:var(--sort);
+      font-family: var(--TitilliumRegular--);
+  }
+
+
+
+_________________
+  /* -------FORSIDE-------- */
+
+  /* Menu */
+
+  
+
+
+
+
+
+
