@@ -54,8 +54,8 @@
 
 
 
-/* _________________ MOBILE  390PX */
-  /* -------FORSIDE-------- */
+  /*-------------------------------------------- Mobile 390px -----------------------------------------------------*/
+  /*-------------------------------------------- Forside-siden -----------------------------------------------------*/
 
     /* fonte mobile */
 
@@ -70,6 +70,7 @@
       text-align: center;
       font-family: var(--TitilliumRegular--);
       font-size: 1.1rem;
+      letter-spacing: 0.1rem;
     }
 
   .heading1red {
@@ -98,6 +99,7 @@
   color: var(--sort);
   font-family: var(--TitilliumLight--);
   margin-bottom: 0.5rem;
+  letter-spacing: 0.1rem;
 }
 
 
@@ -116,6 +118,7 @@
   color: var(--hvid);
   font-family: var(--TitilliumLight--);
   margin-bottom: 0.5rem;
+  letter-spacing: 0.1rem;
 }
 
 
@@ -201,7 +204,7 @@ padding-bottom: 0.5rem;
 
 
 .menuen_wrapper {
-  background-color: #ffe5e55c;
+  background-color: #ffe5e59c;
 }
 
 
@@ -380,6 +383,463 @@ text-align: center;
 	display: none;
 }
 
-::placeholder {
-  color: var(--hvid)
+input::placeholder {
+  opacity: 1;
+  font-size: 0.9rem;
+    color:var(--hvid);
+    font-family: var(--TitilliumLight--);
+    letter-spacing: 0.1rem;
 }
+
+.button_style_nyhedsbrev {
+  border: 1px solid var(--hvid);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 22px;
+  padding-right: 22px;
+  text-align: center;
+  font-family: var(--TitilliumRegular--);
+  font-size: 1.1rem;
+  color: var(--hvid);
+  letter-spacing: 0.1rem;
+}
+
+#nyhedsbrev_button_wrapper {
+  display: grid;
+  justify-content: center;
+}
+
+.button_style_nyhedsbrev:hover {
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+
+  /* FOOTER MOBILE*/
+
+  #footer {
+    background-color: var(--lyspink);
+    padding-left: 1rem;    
+    padding-right: 1rem;
+padding-top: 2.5rem;
+padding-bottom: 2.5rem;
+display: grid;
+justify-content: center;
+align-items: center;
+
+  }
+
+
+  .footer_text {
+    font-size: 0.8rem;
+    color:var(--sort);
+    font-family: var(--TitilliumLight--);
+    letter-spacing: 0.1rem;
+    display: grid;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.footer_text_nederst {
+  padding-top: 1.5rem;
+}
+
+
+
+  /*-------------------------------------------- IPAD 810px -----------------------------------------------------*/
+  /*-------------------------------------------- Forside-siden -----------------------------------------------------*/
+
+    /* fonte mobile */
+
+    .button_style {
+      border: 1px solid #000000;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-left: 22px;
+      padding-right: 22px;
+      text-align: center;
+      font-family: var(--TitilliumRegular--);
+      font-size: 1.1rem;
+      letter-spacing: 0.1rem;
+    }
+
+  .heading1red {
+    font-size: 2rem;
+    color: #FF4D00;
+    font-family: var(--Heebo--);
+    padding-left: 0.2rem;
+    padding-left: 0.2rem;
+
+}
+
+.marquee {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+}
+
+.heading3 {
+  font-size: 2.4rem;
+  color: var(--hvid);
+  font-family: var(--Heebo--);
+}
+
+.h3_underoverskrift {
+  font-size: 1.6rem;
+  color: var(--sort);
+  font-family: var(--TitilliumLight--);
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.1rem;
+}
+
+
+#nyheder_tekst {
+  font-size: 0.9rem;
+    color:var(--sort);
+    font-family: var(--TitilliumRegular--);
+    letter-spacing: 0.1rem;
+    margin-top: 0.5rem;
+
+}
+
+
+.h3_underoverskrift_hvid {
+  font-size: 1.6rem;
+  color: var(--hvid);
+  font-family: var(--TitilliumLight--);
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.1rem;
+}
+
+
+
+.paragraf {
+    font-size: 1rem;
+    color:var(--sort);
+    font-family: var(--TitilliumRegular--);
+    letter-spacing: 0.1rem;
+}
+
+
+  .paragraf_topbanner {
+    font-size: 0.6rem;
+    color:var(--sort);
+    font-family: var(--TitilliumRegular--);
+    letter-spacing: 0.1rem;
+    padding: 0.5rem;
+
+}
+
+.CTA_tekst {
+  font-size: 1.2rem;
+    color:var(--sort);
+    font-family: var(--TitilliumRegular--);
+    letter-spacing: 0.1rem;
+    text-decoration: underline;
+    text-shadow: 2px 2px rgba(199, 199, 199, 0.813);
+}
+
+a:hover, button:hover {
+  color: var(--red);
+}
+
+.button_style:hover {
+  border: 1px solid var(--red);
+
+}
+
+
+
+  /* ---Menu---- */
+
+.logo_wrapper {
+display: flex;
+place-content: center;
+padding-top: 0.2rem;
+padding-bottom: 0.5rem;
+}
+
+.logo {
+  width: 10rem;
+}
+
+
+.over_header_banner {
+  color: black;
+  background-color: #EED6D6;
+  display: flex;
+  justify-content: center;
+}
+
+.menuknap {
+  font-size: 0.9rem;
+  color:var(--sort);
+  font-family: var(--TitilliumRegular--);
+  letter-spacing: 0.1rem;
+}
+
+.menuen {
+  padding-bottom: 0.5rem;
+  display: block;
+  justify-content: center;
+}
+
+.menumenu {
+  justify-content: center;
+}
+
+.header_background_wrapper {
+  background-image: url(/pics/Skærmbillede\ 2022-11-28\ kl.\ 19.35.25.png);
+}
+
+
+.menuen_wrapper {
+  background-color: #ffe5e59c;
+}
+
+
+  /* hero */
+
+.hero_section {
+  height: 20rem;
+  width: auto;
+  display: grid;
+  align-items: center;
+  justify-content: center; 
+}
+
+.hero_section_wrapper {
+  margin: 0;
+  display: grid;
+  align-items: center;
+  justify-content: center;  
+  padding-left: 1rem; 
+  padding-right: 1rem; 
+
+ }
+
+ #velkommen_tekst {
+  text-align: center;
+ }
+
+ #CTA_knap {
+   margin-top: 2rem;
+ }
+
+  /*  section_three */
+
+  #section_three_text {
+    padding-top: 1rem;
+  }
+
+ #section_three {
+   background-color: var(--pink);
+   padding-left: 0.5rem;
+   padding-right: 0.5rem;
+   padding-top: 3rem;
+   padding-bottom: 3rem;
+
+ }
+
+
+   /*  section_four */
+
+#section_four {
+background-size: cover;
+background-image: url(/pics/frontbutik_forside.webp);
+}
+
+#section_four_indhold {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+
+}
+
+/* section_five */
+
+#section_five {
+padding-top: 1rem;
+}
+
+#section_five_logobanner {
+  display: flex;
+  gap: 1rem;
+}
+
+.img_logo_banner {
+  height: 4rem;
+}
+
+.container {
+  overflow: hidden;
+  display: flex;
+  margin: 0 auto;
+}
+
+.container img {
+  animation: slide 15s linear infinite;
+}
+
+
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-1500px, 0, 0); /* The image width */
+  }
+}
+
+
+/* section_six */
+
+
+#section_six {
+
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  display: block;
+  justify-items: center;
+}
+
+#section_six_tekstboks {
+  display: grid;
+justify-items: center;
+text-align: center;
+
+padding-top: 2rem;
+padding-bottom: 2rem;
+}
+
+/* section_seven_nyhedsbrev */
+
+#section_seven_nyhedsbrev {
+  background-color: var(--red);
+  padding-top: 2rem;
+padding-bottom: 2rem;
+
+}
+#nyhedsbrev_inderwrapper {
+
+  display: grid;
+justify-items: center;
+text-align: center;
+}
+
+
+.h3_underoverskrift_nyhedsbrev {
+  font-size: 2rem;
+  color: var(--hvid);
+  font-family: var(--Heebo--);
+}
+
+#nyhedsbrev_tekst {
+  font-size: 0.9rem;
+    color:var(--hvid);
+    font-family: var(--TitilliumLight--);
+    letter-spacing: 0.1rem;
+    margin-top: 0.5rem;
+
+}
+
+/* nyhedsbrev box */
+.search-box,.close-icon,.search-wrapper {
+	position: relative;
+	padding: 10px;
+}
+.search-wrapper {
+	margin: auto;
+	margin-top: 1rem;
+  display: grid;
+  justify-items: center;
+text-align: center;
+}
+.search-box {
+	width: 100%;
+  border: 1px solid #ffffffb0;
+  outline: 0;
+  background-color: #ffffff78;
+
+}
+.search-box:focus {
+	border: 2px solid #ffffff;
+}
+
+.search-box:not(:valid) ~ .close-icon {
+	display: none;
+}
+
+input::placeholder {
+  opacity: 1;
+  font-size: 0.9rem;
+    color:var(--hvid);
+    font-family: var(--TitilliumLight--);
+    letter-spacing: 0.1rem;
+}
+
+.button_style_nyhedsbrev {
+  border: 1px solid var(--hvid);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 22px;
+  padding-right: 22px;
+  text-align: center;
+  font-family: var(--TitilliumRegular--);
+  font-size: 1.1rem;
+  color: var(--hvid);
+  letter-spacing: 0.1rem;
+}
+
+#nyhedsbrev_button_wrapper {
+  display: grid;
+  justify-content: center;
+}
+
+.button_style_nyhedsbrev:hover {
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+
+  /* FOOTER MOBILE*/
+
+  #footer {
+    background-color: var(--lyspink);
+    padding-left: 1rem;    
+    padding-right: 1rem;
+padding-top: 2.5rem;
+padding-bottom: 2.5rem;
+display: grid;
+justify-content: center;
+align-items: center;
+
+  }
+
+
+  .footer_text {
+    font-size: 0.8rem;
+    color:var(--sort);
+    font-family: var(--TitilliumLight--);
+    letter-spacing: 0.1rem;
+    display: grid;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.footer_text_nederst {
+  padding-top: 1.5rem;
+}
+
+
+
+
