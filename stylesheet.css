@@ -1803,8 +1803,28 @@ text-align: center;
   /*-------------------------------------------- MEDIA SCREEN 1280px -----------------------------------------------------*/
   /*-------------------------------------------- Forside-siden -----------------------------------------------------*/
 
-  @media (min-width: 1500px) {
+  @media (min-width: 1400px) {
 
+
+    /*-------------------------------------------- Garn - siden -----------------------------------------------------*/
+
+/* section et */
+/* breadcrumbs */
+
+    .breadcrumb {
+      
+      font-size: 1.2rem;
+      
+      padding-top: 10rem;
+    }
+
+    .garnprodukt_tekst {
+      font-size: 1.3rem;
+    }
+
+    .forside_filtrering_allaround_container {
+      padding-bottom: 5rem;
+    }
 
 
   }
