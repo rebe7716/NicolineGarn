@@ -515,6 +515,13 @@ text-align: center;
   color: var(--red);
 }
 
+.plads_soppe {
+  padding-top: 3rem;
+}
+
+.forside_filtrering_allaround_container {
+  padding-bottom: 3rem;
+}
 
   /*-------------------------------------------- MEDIA IPAD 810px -----------------------------------------------------*/
   /*-------------------------------------------- Forside-siden -----------------------------------------------------*/
@@ -851,7 +858,74 @@ text-align: center;
   padding-top: 1.5rem;
 }
 
-  }
+  
+
+/*-------------------------------------------- Garn - siden -----------------------------------------------------*/
+
+/* section et */
+/* breadcrumbs */
+
+
+
+.breadcrumb {
+  color: rgba(128, 128, 128, 0.655);
+  font-family: var(--TitilliumLight--);
+  font-size: 1.1rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+
+  padding-top: 5rem;
+}
+
+.hererjeg_breadcrumbs {
+  text-decoration: underline;
+}
+
+
+#section_et {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+
+/* filtrering */
+
+
+.button_style_garn {
+  border: 1px solid #000000;
+  margin-top: 15px;
+  margin-bottom: 9px;
+  padding-top: 9px;
+  padding-bottom: 10px;
+  padding-left: 22px;
+  padding-right: 22px;
+  text-align: center;
+  font-family: var(--TitilliumRegular--);
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
+  width: 100%;
+  
+}
+
+.button_style_garn:hover {
+  border: 1px solid var(--red);
+}
+
+.garnprodukt_tekst {
+  font-family: var(--TitilliumRegular--);
+  font-size: 1.3rem;
+  color: var(--red);
+}
+
+
+.sletpadding {
+padding-top: 0;
+}
+
+}
 
 
 
@@ -1213,7 +1287,77 @@ text-align: center;
   padding-top: 1.5rem;
 }
 
+
+
+
+/*-------------------------------------------- Garn - siden -----------------------------------------------------*/
+
+/* section et */
+/* breadcrumbs */
+
+
+
+.breadcrumb {
+  color: rgba(128, 128, 128, 0.655);
+  font-family: var(--TitilliumLight--);
+  font-size: 1.1rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+
+  padding-top: 5rem;
+}
+
+.hererjeg_breadcrumbs {
+  text-decoration: underline;
+}
+
+
+#section_et {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+
+/* filtrering */
+
+
+.button_style_garn {
+  border: 1px solid #000000;
+  margin-top: 15px;
+  margin-bottom: 9px;
+  padding-top: 9px;
+  padding-bottom: 10px;
+  padding-left: 22px;
+  padding-right: 22px;
+  text-align: center;
+  font-family: var(--TitilliumRegular--);
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
+  width: 100%;
+  
+}
+
+.button_style_garn:hover {
+  border: 1px solid var(--red);
+}
+
+.garnprodukt_tekst {
+  font-size: 1.2rem;
+}
+
+.plads_soppe_denher {
+  padding-top: 0;
+}
+
   }
+
+
+
+
+
 
 
 
@@ -1588,6 +1732,69 @@ text-align: center;
 .footer_text_nederst {
   padding-top: 1.5rem;
 }
+
+
+/*-------------------------------------------- Garn - siden -----------------------------------------------------*/
+
+/* section et */
+/* breadcrumbs */
+
+
+
+.breadcrumb {
+  font-size: 1.2rem;
+  padding-top: 7rem;
+}
+
+.hererjeg_breadcrumbs {
+  text-decoration: underline;
+}
+
+
+#section_et {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+
+/* filtrering */
+
+
+.button_style_garn {
+  border: 1px solid #000000;
+  margin-top: 15px;
+  margin-bottom: 9px;
+  padding-top: 9px;
+  padding-bottom: 10px;
+  padding-left: 22px;
+  padding-right: 22px;
+  text-align: center;
+  font-family: var(--TitilliumRegular--);
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
+  width: 100%;
+  
+}
+
+.button_style_garn:hover {
+  border: 1px solid var(--red);
+}
+
+.garnprodukt_tekst {
+  font-size: 1.2rem;
+}
+
+.plads_soppe_denher {
+  padding-top: 0;
+}
+
+.sletpadding2 {
+  padding-top: 0;
+}
+
+
   }
 
 
