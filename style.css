@@ -1,8 +1,31 @@
 :root {
+
+
+
+  
   /* backgroudcolor */
   --primary-bg-color: #ffffff;
   --secondary-bg-color: #202020;
   --third--bg-color: #fdfdfd;
+
+
+  /* colorpalette */
+  --beige: #FFF7EF;
+  --lyspink: #FFF5F5;
+  --pink: #F2D9D9;
+  --red: #FF4D00;
+  --sort: #000000;
+  --hvid: #FFFFFF;
+
+  /* ------- header desk ------- */
+  --desk-bg-color-header: transparant;
+  --link-color: #FF4D00;
+
+  /* ------- fonte defineret ------- */
+  --Heebo--: "Heebo", sans-serif;
+  --TitilliumRegular--: "TitilliumRegular", sans-serif;
+  --TitilliumLight--: "TitilliumLight", sans-serif;
+  --TitilliumBold--: "TitilliumBold", sans-serif;
 
   /* ------- header desk ------- */
   --desk-bg-color-header: transparant;
@@ -29,79 +52,6 @@
 
   /* ------- headings ------ */
 
-  /* fonte */
-  --h1--: "Archivo", sans-serif;
-  --h2--: "Archivo", sans-serif;
-  --h3--: "Archivo", sans-serif;
-  --h4--: "Archivo", sans-serif;
-  --h5--: "Archivo", sans-serif;
-  --p--: "Archivo", sans-serif;
-  --a--: "Archivo", sans-serif;
-  --li--: "Archivo", sans-serif;
-
-  /* hover */
-  --a--hover-primary: italic;
-  --a--hover-secondary: underline;
-  --button-hover-primary: italic;
-  --button-hover-secondary: underline;
-
-  /* font-sizes */
-  --h1--size--forside: clamp(2.8rem, 1.9599999999999997rem + 4.2vw, 7rem);
-  --h1-size--: clamp(
-    1.9rem,
-    1.5299999999999998rem + 1.8500000000000003vw,
-    3.75rem
-  );
-  --h2-size--: clamp(1.6rem, 1.3800000000000001rem + 1.1vw, 2.7rem);
-  --h2--size--forside: clamp(1rem, 0.84rem + 0.8vw, 1.8rem);
-  --h2--size--bagom: clamp(
-    1.5rem,
-    1.3599999999999999rem + 0.7000000000000002vw,
-    2.2rem
-  );
-  --h3--size-: clamp(1.4rem, 1.23rem + 0.8500000000000001vw, 2.25rem);
-
-  --h4-size--: clamp(1rem, 0.84rem + 0.8vw, 1.8rem);
-  --h5-size--: clamp(1.125rem, 1.09rem + 0.17500000000000004vw, 1.3rem);
-  --p-size--: clamp(0.8rem, 0.74rem + 0.30000000000000004vw, 1.1rem);
-  --a-size--: clamp(0.8rem, 0.74rem + 0.30000000000000004vw, 1.1rem);
-  --banner--font-size--: clamp(
-    0.7rem,
-    0.6399999999999999rem + 0.30000000000000004vw,
-    1rem
-  );
-
-  --p--lineheight: clamp(1.5rem, 1.4rem + 0.5vw, 2rem);
-  --bagom--lineheight: 3rem;
-
-  /* font-colors */
-  --h1--color-primary: #051036;
-  --h1--color-secondary: #202020;
-
-  --h2--color-primary: #202020;
-  --h2--color-secondary: #fdfdfd;
-  --h2--color-third: #0338e1;
-
-  --h3--color-primary: #202020;
-  --h3--color-secondary: #fdfdfd;
-  --h3--color-third: #0338e1;
-
-  --h4--color-primary: #202020;
-  --h4--color-secondary: #fdfdfd;
-  --h4--color-third: #0338e1;
-
-  --h5--color-primary: #202020;
-  --h5--color-secondary: #fdfdfd;
-  --h5--color-third: #0338e1;
-  --h5--color-fourth: #051036;
-
-  --p--color-primary: #202020;
-  --p--color-secondary: #fdfdfd;
-  --p--color-third: #0338e1;
-
-  --a--color-primary: #0338e1;
-  --a--color-secondary: #fdfdfd;
-  --a--color-third: #202020;
 
   /* margin headings */
   --h1--margin-bottom: clamp(2rem, 1.9rem + 0.5vw, 2.5rem);
@@ -378,17 +328,21 @@ fieldset {
 }
 
 #hojlav1 {
-  border: none;
-  border-radius: var(--button-radius);
-  box-shadow: var(--button-shadow);
-  background-color: var(--h2--color-secondary);
-  color: #333;
+  border: 1px solid rgba(128, 128, 128, 0.655);
+  color: rgba(128, 128, 128, 0.655);
   width: 100%;
   box-sizing: border-box;
   letter-spacing: 1px;
   padding: 0.4rem;
-  margin: 0.2rem;
   max-width: 9rem;
+  background-color: var(--hvid);
+}
+
+.h3_overfiltrering_mobil {
+  font-family: var(--TitilliumRegular--);
+  color: rgba(128, 128, 128, 0.888);
+  font-size: 1.1rem;
+  padding-bottom: 0.2rem;
 }
 
 .forside_univers_filtreing {
@@ -415,15 +369,12 @@ fieldset {
 }
 
 .forside_filtrering_produktbilleder_tekst {
-  display: flex;
+  display: block;
   justify-content: space-between;
   margin-top: 0.5rem;
   color: var(--h5--color-fourth);
 }
 
-.forside_filtrering_produktbilleder_tekst h4 {
-  color: var(--h5--color-fourth);
-}
 
 /*------------------------------------------- Singleview --------------------------------------------------------*/
 
