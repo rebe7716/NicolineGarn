@@ -1,0 +1,1579 @@
+/*DESIGN SYSTEM*/
+
+
+:root {
+    /* colorpalette */
+    --beige: #FFF7EF;
+    --lyspink: #FFF5F5;
+    --pink: #F2D9D9;
+    --red: #FF4D00;
+    --sort: #000000;
+    --hvid: #FFFFFF;
+  
+    /* ------- header desk ------- */
+    --desk-bg-color-header: transparant;
+    --link-color: #FF4D00;
+
+    /* ------- fonte defineret ------- */
+    --Heebo--: "Heebo", sans-serif;
+    --TitilliumRegular--: "TitilliumRegular", sans-serif;
+    --TitilliumLight--: "TitilliumLight", sans-serif;
+    --TitilliumBold--: "TitilliumBold", sans-serif;
+
+  }
+
+  __________
+/* FONTS  LOADED*/
+  @font-face {
+    font-family: Khmer;
+    src: url(/font/KhmerMEF1Regular.woff2) format("woff2");
+  }
+
+  @font-face {
+    font-family: Heebo;
+    src: url(/font/Heebo-VariableFont_wght.woff2) format("woff2");
+  }
+
+  @font-face {
+    font-family: TitilliumRegular;
+    src: url(/font/TitilliumWeb-Regular.woff2) format("woff2");
+  }
+
+  @font-face {
+    font-family: TitilliumLight;
+    src: url(/font/TitilliumWeb-Light.woff2) format("woff2");
+  }
+  
+  @font-face {
+    font-family: TitilliumBold;
+    src: url(/font/TitilliumWeb-SemiBold.woff2) format("woff2");
+  }
+  
+
+
+
+
+
+
+  /*-------------------------------------------- Mobile 390px -----------------------------------------------------*/
+  /*-------------------------------------------- Forside-siden -----------------------------------------------------*/
+
+    /* fonte mobile */
+
+    .button_style {
+      border: 1px solid #000000;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-left: 22px;
+      padding-right: 22px;
+      text-align: center;
+      font-family: var(--TitilliumRegular--);
+      font-size: 1.1rem;
+      letter-spacing: 0.1rem;
+    }
+
+  .heading1red {
+    font-size: 2rem;
+    color: #FF4D00;
+    font-family: var(--Heebo--);
+    padding-left: 0.2rem;
+    padding-left: 0.2rem;
+
+}
+
+.marquee {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+}
+
+.heading3 {
+  font-size: 2.4rem;
+  color: var(--hvid);
+  font-family: var(--Heebo--);
+}
+
+.h3_underoverskrift {
+  font-size: 1.6rem;
+  color: var(--sort);
+  font-family: var(--TitilliumLight--);
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.1rem;
+}
+
+
+#nyheder_tekst {
+  font-size: 0.9rem;
+    color:var(--sort);
+    font-family: var(--TitilliumRegular--);
+    letter-spacing: 0.1rem;
+    margin-top: 0.5rem;
+
+}
+
+
+.h3_underoverskrift_hvid {
+  font-size: 1.6rem;
+  color: var(--hvid);
+  font-family: var(--TitilliumLight--);
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.1rem;
+}
+
+
+
+.paragraf {
+    font-size: 1rem;
+    color:var(--sort);
+    font-family: var(--TitilliumRegular--);
+    letter-spacing: 0.1rem;
+}
+
+
+  .paragraf_topbanner {
+    font-size: 0.6rem;
+    color:var(--sort);
+    font-family: var(--TitilliumRegular--);
+    letter-spacing: 0.1rem;
+    padding: 0.5rem;
+
+}
+
+.CTA_knap {
+  font-size: 1.2rem;
+    color:var(--sort);
+    font-family: var(--TitilliumRegular--);
+    letter-spacing: 0.1rem;
+    text-decoration: underline;
+}
+
+a:hover, button:hover {
+  color: var(--red);
+}
+
+.button_style:hover {
+  border: 1px solid var(--red);
+
+}
+
+
+
+  /* ---Menu---- */
+
+.logo_wrapper {
+display: flex;
+place-content: center;
+padding-top: 0.2rem;
+padding-bottom: 0.5rem;
+}
+
+.logo {
+  width: 10rem;
+}
+
+
+
+.over_header_banner {
+  color: black;
+  background-color: #EED6D6;
+  display: flex;
+  justify-content: center;
+}
+
+.menuknap {
+  font-size: 0.9rem;
+  color:var(--sort);
+  font-family: var(--TitilliumRegular--);
+  letter-spacing: 0.1rem;
+}
+
+.menuen {
+  padding-bottom: 0.5rem;
+  display: block;
+  justify-content: center;
+}
+
+.menumenu {
+  justify-content: center;
+}
+
+.header_background_wrapper {
+  background-image: url(/pics/herobillede.png);
+  background-size: cover;
+}
+
+
+.menuen_wrapper {
+  background-color: #ffe5e59c;
+}
+
+
+  /* hero */
+
+.hero_section {
+  height: 20rem;
+  width: auto;
+  display: grid;
+  align-items: center;
+  justify-content: center; 
+}
+
+.hero_section_wrapper {
+  margin: 0;
+  display: grid;
+  align-items: center;
+  justify-content: center;  
+  padding-left: 1rem; 
+  padding-right: 1rem; 
+
+ }
+
+ #velkommen_tekst {
+  text-align: center;
+ }
+
+ #CTA_knap {
+   margin-top: 2rem;
+ }
+
+  /*  section_three */
+
+  #section_three_text {
+    padding-top: 1rem;
+  }
+
+ #section_three_child {
+
+   padding-left: 0.5rem;
+   padding-right: 0.5rem;
+   padding-top: 3rem;
+   padding-bottom: 3rem;
+
+ }
+
+ #section_three {
+  background-color: var(--pink);
+ }
+
+
+   /*  section_four */
+
+#section_four {
+background-size: cover;
+background-image: url(/pics/frontbutik_forside.webp);
+}
+
+#section_four_indhold {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+
+}
+
+/* section_five */
+
+#section_five {
+padding-top: 1rem;
+}
+
+#section_five_logobanner {
+  display: flex;
+  gap: 1rem;
+}
+
+.img_logo_banner {
+  height: 4rem;
+}
+
+.container {
+  overflow: hidden;
+  display: flex;
+  margin: 0 auto;
+}
+
+.container img {
+  animation: slide 15s linear infinite;
+}
+
+
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-1500px, 0, 0); /* The image width */
+  }
+}
+
+
+/* section_six */
+
+
+#section_six {
+
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  display: block;
+  justify-items: center;
+}
+
+#section_six_tekstboks {
+  display: grid;
+justify-items: center;
+text-align: center;
+
+padding-top: 2rem;
+padding-bottom: 2rem;
+}
+
+/* section_seven_nyhedsbrev */
+
+#section_seven_nyhedsbrev {
+  background-color: var(--red);
+  padding-top: 2rem;
+padding-bottom: 2rem;
+
+}
+#nyhedsbrev_inderwrapper {
+
+  display: grid;
+justify-items: center;
+text-align: center;
+}
+
+
+.h3_underoverskrift_nyhedsbrev {
+  font-size: 2rem;
+  color: var(--hvid);
+  font-family: var(--Heebo--);
+}
+
+#nyhedsbrev_tekst {
+  font-size: 0.9rem;
+    color:var(--hvid);
+    font-family: var(--TitilliumLight--);
+    letter-spacing: 0.1rem;
+    margin-top: 0.5rem;
+
+}
+
+/* nyhedsbrev box */
+.search-box,.close-icon,.search-wrapper {
+	position: relative;
+	padding: 10px;
+}
+.search-wrapper {
+	margin: auto;
+	margin-top: 1rem;
+  display: grid;
+  justify-items: center;
+text-align: center;
+}
+.search-box {
+	width: 100%;
+  border: 1px solid #ffffffb0;
+  outline: 0;
+  background-color: #ffffff78;
+
+}
+.search-box:focus {
+	border: 2px solid #ffffff;
+}
+
+.search-box:not(:valid) ~ .close-icon {
+	display: none;
+}
+
+input::placeholder {
+  opacity: 1;
+  font-size: 0.9rem;
+    color:var(--hvid);
+    font-family: var(--TitilliumLight--);
+    letter-spacing: 0.1rem;
+}
+
+.button_style_nyhedsbrev {
+  border: 1px solid var(--hvid);
+  margin-top: 10px;
+      margin-bottom: 10px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-left: 22px;
+      padding-right: 22px;
+      text-align: center;
+      font-family: var(--TitilliumRegular--);
+      font-size: 1.1rem;
+      letter-spacing: 0.1rem;
+  color: var(--hvid);
+  letter-spacing: 0.1rem;
+}
+
+#nyhedsbrev_button_wrapper {
+  display: grid;
+  justify-content: center;
+}
+
+.button_style_nyhedsbrev:hover {
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  color: var(--hvid);
+}
+
+
+  /* FOOTER MOBILE*/
+
+  #footer {
+    background-color: var(--lyspink);
+    padding-left: 1rem;    
+    padding-right: 1rem;
+padding-top: 2.5rem;
+padding-bottom: 2.5rem;
+display: grid;
+justify-content: center;
+align-items: center;
+
+  }
+
+
+  .footer_text {
+    font-size: 0.8rem;
+    color:var(--sort);
+    font-family: var(--TitilliumLight--);
+    letter-spacing: 0.1rem;
+    display: grid;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.footer_text_nederst {
+  padding-top: 1.5rem;
+}
+
+
+
+/*-------------------------------------------- Garn-siden -----------------------------------------------------*/
+
+/* section et */
+/* breadcrumbs */
+
+
+
+.breadcrumb {
+  color: rgba(128, 128, 128, 0.655);
+  font-family: var(--TitilliumLight--);
+  font-size: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+
+  padding-top: 3rem;
+}
+
+.hererjeg_breadcrumbs {
+  text-decoration: underline;
+}
+
+
+#section_et {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+
+/* filtrering */
+
+
+
+
+  /*-------------------------------------------- MEDIA IPAD 810px -----------------------------------------------------*/
+  /*-------------------------------------------- Forside-siden -----------------------------------------------------*/
+
+  @media (min-width: 700px) {
+
+    /* fonte mobile */
+
+    .button_style {
+      border: 1px solid #000000;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-left: 22px;
+      padding-right: 22px;
+      text-align: center;
+      font-family: var(--TitilliumRegular--);
+      font-size: 1.1rem;
+      letter-spacing: 0.1rem;
+    }
+
+  .heading1red {
+    font-size: 2rem;
+    color: #FF4D00;
+    font-family: var(--Heebo--);
+    padding-left: 0.2rem;
+    padding-left: 0.2rem;
+
+}
+
+.marquee {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+}
+
+
+
+.h3_underoverskrift {
+  font-size: 1.6rem;
+  color: var(--sort);
+  font-family: var(--TitilliumLight--);
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.1rem;
+}
+
+
+
+.h3_underoverskrift_hvid {
+  font-size: 1.6rem;
+  color: var(--hvid);
+  font-family: var(--TitilliumLight--);
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.1rem;
+}
+
+
+
+.paragraf {
+    font-size: 1.3rem;
+   
+    letter-spacing: 0.15rem;
+    width: 36rem;
+}
+
+
+  .paragraf_topbanner {
+    font-size: 0.6rem;
+    color:var(--sort);
+    font-family: var(--TitilliumRegular--);
+    letter-spacing: 0.1rem;
+    padding: 0.5rem;
+
+}
+
+.CTA_knap {
+  font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    text-decoration: underline;
+}
+
+
+
+  /* ---Menu---- */
+
+.logo_wrapper {
+display: flex;
+}
+
+.logo {
+  width: 15rem;
+  padding-left: 1rem
+}
+
+
+
+.menuen {
+  padding-bottom: 0.5rem;
+  display: block;
+  justify-content: center;
+}
+
+.menumenu {
+  padding-right: 1rem;
+  display: flex;
+
+}
+
+.menu {
+  display: block;
+  align-items: baseline;
+}
+
+
+
+.menuen_wrapper {
+  background-color: #ffe5e59c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+  /* hero */
+
+.hero_section {
+  height: 20rem;
+  width: auto;
+  display: grid;
+  align-items: center;
+  justify-content: center; 
+}
+
+.hero_section_wrapper {
+  margin: 0;
+  display: grid;
+  align-items: center;
+  justify-content: center;  
+  padding-left: 1rem; 
+  padding-right: 1rem; 
+
+ }
+
+ #velkommen_tekst {
+  text-align: center;
+ }
+
+ #CTA_knap {
+   margin-top: 2rem;
+ }
+
+  /*  section_three */
+
+  #section_three_text {
+    padding-top: 0;
+
+  }
+
+ #section_three {
+   display: flex;
+   gap: 1rem;
+   padding-right: 3rem;
+   padding-left: 3rem;
+   
+
+ }
+
+ .button_nyheder {
+   margin-top: 2rem;
+ }
+
+ #nyheder_tekst {
+   text-align: justify;
+   padding-top: 2rem;
+ }
+
+ .heading1red {
+  font-size: 3rem;
+
+  padding-left: 0.2rem;
+  padding-left: 0.2rem;
+
+}
+
+.heading3 {
+  font-size: 3rem;
+  color: var(--hvid);
+  font-family: var(--Heebo--);
+}
+
+
+   /*  section_four */
+
+
+
+#section_four_indhold {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+
+}
+
+/* section_five */
+
+#section_five {
+padding-top: 1rem;
+padding-bottom: 1rem;
+
+}
+
+#section_five_logobanner {
+  
+  gap: 2rem;
+}
+
+.img_logo_banner {
+  height: 5rem;
+}
+
+
+
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-1500px, 0, 0); /* The image width */
+  }
+}
+
+
+/* section_six */
+
+
+#section_six {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+}
+
+#section_six_tekstboks {
+  display: grid;
+justify-items: center;
+text-align: center;
+padding-top: 2rem;
+padding-bottom: 2rem;
+width: 19rem;
+}
+
+.section_six_img img {
+  width: 15rem;
+}
+
+/* section_seven_nyhedsbrev */
+
+#section_seven_nyhedsbrev {
+  padding-top: 3rem;
+padding-bottom: 3rem;
+
+}
+#nyhedsbrev_inderwrapper {
+
+  display: grid;
+justify-items: center;
+text-align: center;
+}
+
+
+.h3_underoverskrift_nyhedsbrev {
+  font-size: 2rem;
+  color: var(--hvid);
+  font-family: var(--Heebo--);
+}
+
+#nyhedsbrev_tekst {
+  width: 40rem;
+    margin-top: 0.5rem;
+
+}
+
+
+.search-box {
+	width: 30rem;
+  border: 1px solid #ffffffb0;
+  outline: 0;
+  background-color: #ffffff78;
+
+}
+
+
+#nyhedsbrev_button_wrapper {
+  display: grid;
+  justify-content: center;
+  padding-top: 0.5rem
+}
+
+
+
+
+  /* FOOTER MOBILE*/
+
+  #footer {
+    background-color: var(--lyspink);
+    padding-left: 1rem;    
+    padding-right: 1rem;
+padding-top: 2.5rem;
+padding-bottom: 2.5rem;
+display: grid;
+justify-content: center;
+align-items: center;
+
+  }
+
+
+  .footer_text {
+    font-size: 0.8rem;
+    color:var(--sort);
+    font-family: var(--TitilliumLight--);
+    letter-spacing: 0.1rem;
+    display: grid;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.footer_text_nederst {
+  padding-top: 1.5rem;
+}
+
+  }
+
+
+
+
+  /*-------------------------------------------- MEDIA SCREEN 1024px -----------------------------------------------------*/
+  /*-------------------------------------------- Forside-siden -----------------------------------------------------*/
+
+  @media (min-width: 1024px) {
+
+    /* fonte mobile */
+
+    .button_style {
+      border: 1px solid #000000;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-left: 22px;
+      padding-right: 22px;
+      text-align: center;
+      font-family: var(--TitilliumRegular--);
+      font-size: 1.1rem;
+      letter-spacing: 0.1rem;
+    }
+
+  .heading1red {
+    font-size: 2rem;
+    color: #FF4D00;
+    font-family: var(--Heebo--);
+    padding-left: 0.2rem;
+    padding-left: 0.2rem;
+
+}
+
+.marquee {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+}
+
+
+
+.h3_underoverskrift {
+  font-size: 1.6rem;
+  color: var(--sort);
+  font-family: var(--TitilliumLight--);
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.1rem;
+}
+
+
+
+
+
+.h3_underoverskrift_hvid {
+  font-size: 1.6rem;
+  color: var(--hvid);
+  font-family: var(--TitilliumLight--);
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.1rem;
+}
+
+
+
+.paragraf {
+    font-size: 1.3rem;
+   
+    letter-spacing: 0.15rem;
+    width: 36rem;
+}
+
+
+  .paragraf_topbanner {
+    font-size: 0.6rem;
+    color:var(--sort);
+    font-family: var(--TitilliumRegular--);
+    letter-spacing: 0.1rem;
+    padding: 0.5rem;
+
+}
+
+.CTA_knap {
+  font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    text-decoration: underline;
+}
+
+
+
+  /* ---Menu---- */
+
+.logo_wrapper {
+display: flex;
+}
+
+.logo {
+  width: 16rem;
+  padding-left: 2rem
+}
+
+.paragraf_topbanner {
+  font-size: 0.7rem;
+  padding: 0;
+
+}
+.over_header_banner {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+
+
+.menuen {
+  padding-bottom: 0.5rem;
+  display: block;
+  justify-content: center;
+}
+
+.menuen_wrapper {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.menumenu {
+  padding-right: 2rem;
+  display: flex;
+
+}
+.menuknap {
+  font-size: 1.1rem
+}
+
+
+
+
+
+  /* hero */
+
+.hero_section {
+  height: 40rem;
+  width: auto;
+  display: grid;
+  align-items: center;
+  justify-content: center; 
+}
+
+.hero_section_wrapper {
+  margin: 0;
+  display: grid;
+  align-items: center;
+  justify-content: center;  
+  padding-left: 1rem; 
+  padding-right: 1rem; 
+
+ }
+
+ #velkommen_tekst {
+  text-align: center;
+ }
+
+ .paragraf {
+  font-size: 2rem;
+  color:var(--sort);
+  font-family: var(--TitilliumLight--);
+  letter-spacing: 0.1rem;
+}
+
+ #CTA_knap {
+   margin-top: 2rem;
+ }
+
+ .CTA_knap {
+  font-size: 2rem;
+    color:var(--sort);
+    font-family: var(--TitilliumRegular--);
+    letter-spacing: 0.3rem;
+    
+}
+
+.marquee {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+.heading1red {
+  font-size: 4rem;
+}
+
+  /*  section_three */
+
+  #section_three_text {
+    padding-top: 0;
+
+  }
+
+  #section_three_child {
+    display: flex;
+    gap: 1.4rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    width: 55rem;
+  justify-content: center;
+  }
+
+ .button_nyheder {
+   margin-top: 2rem;
+ }
+
+ 
+ #nyheder_tekst {
+   text-align: justify;
+   padding-top: 2rem;
+ }
+
+ 
+
+
+
+
+   /*  section_four */
+
+
+
+#section_four_indhold {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  padding-left: 5.6rem;
+  padding-right: 5.6rem;
+
+}
+
+/* section_five */
+
+#section_five {
+padding-top: 1rem;
+padding-bottom: 1rem;
+
+}
+
+#section_five_logobanner {
+  
+  gap: 5rem;
+}
+
+.img_logo_banner {
+  height: 6rem;
+}
+
+
+
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-1500px, 0, 0); /* The image width */
+  }
+}
+
+
+/* section_six */
+
+
+#section_six {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+}
+
+#section_six_tekstboks {
+  display: grid;
+justify-items: center;
+text-align: center;
+padding-top: 2rem;
+padding-bottom: 2rem;
+
+}
+
+.section_six_img img {
+  width: 20rem;
+}
+
+/* section_seven_nyhedsbrev */
+
+#section_seven_nyhedsbrev {
+  padding-top: 4rem;
+padding-bottom: 4rem;
+
+}
+#nyhedsbrev_inderwrapper {
+
+  display: grid;
+justify-items: center;
+text-align: center;
+}
+
+
+.h3_underoverskrift_nyhedsbrev {
+  font-size: 2.5rem;
+  color: var(--hvid);
+  font-family: var(--Heebo--);
+}
+
+#nyhedsbrev_tekst {
+  width: 40rem;
+    margin-top: 0.5rem;
+
+}
+
+
+.search-box {
+	width: 40rem;
+  border: 1px solid #ffffffb0;
+  outline: 0;
+  background-color: #ffffff78;
+
+}
+
+
+#nyhedsbrev_button_wrapper {
+  display: grid;
+  justify-content: center;
+  padding-top: 0.5rem
+}
+
+
+
+
+  /* FOOTER MOBILE*/
+
+  #footer {
+    background-color: var(--lyspink);
+    padding-left: 1rem;    
+    padding-right: 1rem;
+padding-top: 2.5rem;
+padding-bottom: 2.5rem;
+display: grid;
+justify-content: center;
+align-items: center;
+
+  }
+
+
+  .footer_text {
+    font-size: 0.8rem;
+    color:var(--sort);
+    font-family: var(--TitilliumLight--);
+    letter-spacing: 0.1rem;
+    display: grid;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.footer_text_nederst {
+  padding-top: 1.5rem;
+}
+
+  }
+
+
+
+
+
+
+/*-------------------------------------------- MEDIA SCREEN 1280px -----------------------------------------------------*/
+  /*-------------------------------------------- Forside-siden -----------------------------------------------------*/
+
+  @media (min-width: 1280px) {
+
+    /* fonte mobile */
+
+    .button_style {
+      border: 1px solid #000000;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-left: 22px;
+      padding-right: 22px;
+      text-align: center;
+      font-family: var(--TitilliumRegular--);
+      font-size: 1.3rem;
+      letter-spacing: 0.3rem;
+    }
+
+    .button_style_nyhedsbrev {
+      border: 1px solid var(--hvid);
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-left: 22px;
+      padding-right: 22px;
+      text-align: center;
+      font-family: var(--TitilliumRegular--);
+      font-size: 1.3rem;
+      letter-spacing: 0.3rem;
+      color: var(--hvid);
+      
+    }
+    
+
+  .heading1red {
+    font-size: 5rem !important;
+    color: #FF4D00;
+    font-family: var(--Heebo--);
+    padding-left: 0.2rem;
+    padding-left: 0.2rem;
+
+}
+
+.marquee {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+}
+
+
+
+.h3_underoverskrift {
+  font-size: 2rem;
+  color: var(--sort);
+  font-family: var(--TitilliumLight--);
+  margin-bottom: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+
+
+.h3_underoverskrift_hvid {
+  font-size: 1.6rem;
+  color: var(--hvid);
+  font-family: var(--TitilliumLight--);
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.1rem;
+}
+
+
+
+.paragraf {
+    font-size: 2.2rem !important;
+   font-family: var(--TitilliumLight--) !important;
+    letter-spacing: 0.3rem !important;
+    width: 50rem !important;
+}
+
+.paragraf_topbanner {
+font-size: 0.9rem !important;
+}
+
+.CTA_knap {
+  font-size: 2rem !important;
+    letter-spacing: 0.3rem !important;
+}
+
+
+
+  /* ---Menu---- */
+
+.logo_wrapper {
+display: flex;
+}
+
+.logo {
+  width: 17rem;
+  padding-left: 4rem
+}
+
+.paragraf_topbanner {
+  font-size: 0.7rem;
+  padding: 0;
+
+}
+.over_header_banner {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+
+
+.menuen {
+  padding-bottom: 0.5rem;
+  display: block;
+  justify-content: center;
+}
+
+.menuen_wrapper {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.menumenu {
+  padding-right: 4rem;
+  display: flex;
+
+}
+.menuknap {
+  font-size: 1.1rem
+}
+
+
+
+
+
+
+  /* hero */
+
+.hero_section {
+  height: 40rem;
+  width: auto;
+  display: grid;
+  align-items: center;
+  justify-content: center; 
+}
+
+.hero_section_wrapper {
+  margin: 0;
+  display: grid;
+  align-items: center;
+  justify-content: center;  
+  padding-left: 1rem; 
+  padding-right: 1rem; 
+
+ }
+
+ #velkommen_tekst {
+  text-align: center;
+ }
+
+ .paragraf {
+  font-size: 2rem;
+  color:var(--sort);
+  font-family: var(--TitilliumLight--);
+  letter-spacing: 0.1rem;
+}
+
+ #CTA_knap {
+   margin-top: 2rem;
+ }
+
+ .CTA_knap {
+  font-size: 2rem;
+    color:var(--sort);
+    font-family: var(--TitilliumRegular--);
+    letter-spacing: 0.3rem;
+    
+}
+
+.marquee {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+.heading1red {
+  font-size: 4rem;
+}
+
+  /*  section_three */
+
+  #section_three_text {
+    padding-top: 0;
+    width: 55rem;
+
+  }
+
+  #section_three_child {
+    display: flex;
+    gap: 3rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
+    width: 55rem;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  }
+
+ .button_nyheder {
+   margin-top: 2rem;
+ }
+
+ 
+ #nyheder_tekst {
+   text-align: justify;
+   padding-top: 2rem;
+ }
+
+ #section_three {
+   justify-content: center;
+ }
+
+ .heading3 {
+   font-size: 3.5rem;
+ }
+ 
+
+
+
+
+   /*  section_four */
+
+
+
+#section_four_indhold {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  padding-left: 5.6rem;
+  padding-right: 5.6rem;
+
+}
+
+/* section_five */
+
+#section_five {
+padding-top: 1.4rem;
+padding-bottom: 1rem;
+
+}
+
+#section_five_logobanner {
+  
+  gap: 6rem;
+}
+
+.img_logo_banner {
+  height: 7rem;
+}
+
+
+/* section_six */
+
+
+#section_six {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 5rem;
+  padding-top: 2rem;
+
+}
+
+#section_six_tekstboks {
+  display: grid;
+justify-items: center;
+text-align: center;
+padding-top: 2rem;
+padding-bottom: 2rem;
+padding-left: 2rem;
+padding-right: 2rem;
+
+}
+
+.section_six_img img {
+  width: 30rem;
+}
+
+/* section_seven_nyhedsbrev */
+
+#section_seven_nyhedsbrev {
+  padding-top: 6rem;
+padding-bottom: 6rem;
+
+}
+#nyhedsbrev_inderwrapper {
+
+  display: grid;
+justify-items: center;
+text-align: center;
+}
+
+
+.h3_underoverskrift_nyhedsbrev {
+  font-size: 4rem;
+  color: var(--hvid);
+  font-family: var(--Heebo--);
+}
+
+#nyhedsbrev_tekst {
+  width: 40rem;
+    margin-top: 0.5rem;
+
+}
+
+
+.search-box {
+	width: 50rem;
+  border: 1px solid #ffffffb0;
+  outline: 0;
+  background-color: #ffffff78;
+
+}
+
+
+#nyhedsbrev_button_wrapper {
+  display: grid;
+  justify-content: center;
+  padding-top: 0.5rem
+}
+
+
+
+  /* FOOTER MOBILE*/
+
+  #footer {
+    background-color: var(--lyspink);
+    padding-left: 1rem;    
+    padding-right: 1rem;
+padding-top: 2.5rem;
+padding-bottom: 2.5rem;
+display: grid;
+justify-content: center;
+align-items: center;
+
+  }
+
+
+  .footer_text {
+    font-size: 0.8rem;
+    color:var(--sort);
+    font-family: var(--TitilliumLight--);
+    letter-spacing: 0.1rem;
+    display: grid;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.footer_text_nederst {
+  padding-top: 1.5rem;
+}
+  }
+
+
+
+
+  /*-------------------------------------------- MEDIA SCREEN 1280px -----------------------------------------------------*/
+  /*-------------------------------------------- Forside-siden -----------------------------------------------------*/
+
+  @media (min-width: 1500px) {
+
+
+
+  }
