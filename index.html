@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/dist/output.css" rel="stylesheet" >
-    <link rel='icon' type='image/svg' href='/img/logologo.svg'>
+    <link rel='icon' type='image/svg' href='/pics/favicon.svg'>
     <link rel="stylesheet" href="stylesheet.css" />
     <title>Document</title>
 </head>
@@ -27,7 +27,7 @@
 
     <div class="menuen_wrapper"
     >
-    <div class="logo_wrapper">
+    <div class="logo_wrapper cursor-pointer">
       <a href="index.html">
         <img class="logo" src="/pics/nicolinegarn_logo-frigjort.png" alt="logo" />
       </a>
@@ -44,7 +44,14 @@
             <a href="accesories.html">Tilbehør</a>
           </li>
           <li class="menuknap cursor-pointer font-medium xl:text-xl">
-            <a href="">Spørgsmål</a>
+            <div class="dropdown menuknap ">
+              <button class="dropbtn">Spørgsmål</button>
+              <div class="dropdown-content">
+                <a href="kontakt.html">Kontakt os</a>
+                <a href="#">Retur/bytte</a>
+                <a href="#">Gavekort</a>
+              </div>
+            </div> 
           </li>
           <li class="menuknap cursor-pointer font-medium xl:text-xl">
             <a href="voreshistorie.html">Vores historie</a>
@@ -63,7 +70,9 @@
       <div class="hero_section_wrapper">
             <p id="velkommen_tekst" class="paragraf">BUTIKKEN HAR GARN TIL ET HVERT PROJEKT // 
               GARN I ALLE PRISKLASSER</p>
-            <button id="CTA_knap" class="CTA_knap">OPLEV GARNET HER</button>
+            <button id="CTA_knap" class="CTA_knap">
+              <a href="forside.html">OPLEV GARNET HER</a>
+              </button>
           </div>
 
 
@@ -88,7 +97,8 @@
       <h2 class="heading3">Ugens nyheder</h3>
       <h4 class="h3_underoverskrift">SPAR 40% PÅ 
         DROPS ALPACA PARTY </h4>
-        <button class="button_style button_nyheder">Oplev garnet her</button>
+        <button class="button_style button_nyheder">
+          <a href="forside.html">Oplev garnet her</a></button>
         <p id="nyheder_tekst">Fra d. 15 august til og med d. 15 december holder vi DROPS ALPACA Party! Du kan nu spare hele 40% på 15 af DROPS alpacagarner
           <br> <br>
           Garnkvaliteterne, der indgår i udsalget er: Air, Wish, Andes, Soft Tweed, Puna, Alpaca, Nord, Lima, Nepal, Sky, Melody, Baby Alpaca, Brushed Alpaca Silk, Flora, Alpaca Bouclé</p>
@@ -130,7 +140,7 @@
 
   <div id="section_six_tekstboks">
     <h3 class="h3_underoverskrift ">BLIV KLOGERE PÅ VORES HISTORIE</h3>
-    <button class="button_style">Vores historie</button>
+    <button class="button_style"><a href="voreshistorie.html">Vores historie</a></button>
 
   </div>
 
@@ -191,3 +201,11 @@ kontakt@nicolinegarn.dk | +45 35399600
     <!-- body slut -->
 </body>
 </html>
+
+
+
+<style>
+
+  
+ 
+</style>

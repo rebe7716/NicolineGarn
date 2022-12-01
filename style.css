@@ -380,7 +380,9 @@ fieldset {
 /*------------------------------------------- Singleview --------------------------------------------------------*/
 
 .singleview_produktbillede1 img {
-  max-width: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .singleview_ikoner {
@@ -763,7 +765,6 @@ input[type="text"] {
 }
 
 li {
-  /* padding: 5px 0; */
   margin: 0;
   overflow: hidden;
 }
@@ -984,9 +985,8 @@ p.knap {
   #handelsbetingelser,
   #godtatvide,
   #cookie,
-  #bagom_top,
-  #singleview {
-    margin-inline: var(--margin-inline-ipad);
+  #bagom_top {
+  margin-inline: var(--margin-inline-ipad);
     margin-bottom: var(--margin-bottom-ipad);
     margin-top: 4rem;
   }
@@ -1028,7 +1028,7 @@ p.knap {
   /*-------------------------------------------- Singleview --------------------------------------------------------*/
 
   .singleview_produktbillede1 img {
-    max-width: 20rem;
+    max-width: 30rem;
   }
 
   .singleview_container {
@@ -1047,11 +1047,15 @@ p.knap {
 
   #singleview_article {
     display: flex;
+    gap: 1rem;
+    justify-items: center;
+    padding-left: 1rem;
   }
 
+
+
   .singleview_produktbillede1 img {
-    max-width: 20rem;
-    margin-right: 2rem;
+    max-width: 30rem;
   }
 
   .singleview_h3 {
@@ -1112,8 +1116,7 @@ p.knap {
   #kontakt,
   #handelsbetingelser,
   #godtatvide,
-  #cookie,
-  #singleview {
+  #cookie {
     margin-inline: var(--margin-inline-desk--lille);
     margin-bottom: var(--margin-bottom-desk--lille);
   }
@@ -1215,17 +1218,21 @@ p.knap {
   /*-------------------------------------------- Singleview --------------------------------------------------------*/
 
   .singleview_produktbillede1 img {
-    max-width: 24rem;
-    margin-right: 3rem;
+    
   }
 
   .singleview_h3 {
     font-size: 1.5rem !important;
   }
 
-  .singleview_ikoner {
-    gap: 1rem;
-    justify-content: normal;
+  #singleview_article {
+  padding-top: 3rem;
+  width: 60rem;
+  gap: 2rem;
+  }
+
+  .singleview_produktbillede1 img {
+    max-width: 100%;
   }
 
   /*-------------------------------------------- Godt at vide-siden ------------------------------------------------*/
@@ -1266,8 +1273,7 @@ p.knap {
   #handelsbetingelser,
   #godtatvide,
   #cookie,
-  #bagom_top,
-  #singleview {
+  #bagom_top {
     margin-inline: var(--margin-inline-desk);
     margin-bottom: var(--margin-bottom-desk);
   }
@@ -1353,7 +1359,7 @@ p.knap {
   
   /*-------------------------------------------- Singleview --------------------------------------------------------*/
   .singleview_produktbillede1 img {
-    max-width: 25rem;
+    max-width: 100%;
     margin-right: 3rem;
   }
 
@@ -1371,6 +1377,12 @@ p.knap {
   .singleview_ikoner {
     gap: 2rem;
     justify-content: normal;
+  }
+
+  #singleview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   /*-------------------------------------------- Godt at vide-siden ------------------------------------------------*/
@@ -1416,6 +1428,17 @@ p.knap {
     margin-top: 3rem;
   }
 
+
+  #singleview_article {
+    width: 70rem;
+    margin-left: 3rem;
+  }
+
+  #singleview {
+    padding-bottom: 3rem;
+  }
+
+
 }
 
 @media (min-width: 1494px) {
@@ -1445,35 +1468,6 @@ p.knap {
     margin-right: 5rem;
   }
 
-  .singleview_h1 {
-    margin-bottom: 3rem !important;
-  }
-  /* 
-    .forside_filtrering_produktbilleder {
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    }
-
-    .forside_filtrering_produktbillede_enkelt:hover {
-      background-image: url(/img/produktbilleder/cph.01.02.webp);
-    } */
-
-  .singleview_h3 {
-    font-size: 2rem !important;
-    line-height: 1.6rem;
-  }
-
-  .singleview_h3_ekstra {
-    margin-bottom: 4rem !important;
-  }
-  .singleview_ikoner {
-    gap: 0.5rem;
-    justify-content: normal;
-    gap: 2rem;
-  }
-  .singleview_ikontekst {
-    font-size: 1rem;
-    line-height: 1.6rem;
-  }
 
   /*-------------------------------------------- Godt at vide-siden ------------------------------------------------*/
 

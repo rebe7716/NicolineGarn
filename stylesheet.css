@@ -210,6 +210,42 @@ padding-bottom: 0.5rem;
 }
 
 
+ /* Dropdown Button */
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #FFF5F5;
+  min-width: 160px;
+  border: 0.5px solid var(--red);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+color: var(--red);}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+
+
   /* hero */
 
 .hero_section {
@@ -515,12 +551,79 @@ text-align: center;
   color: var(--red);
 }
 
-.plads_soppe {
+/* .plads_soppe {
   padding-top: 3rem;
-}
+} */
 
+.plads_soppe {
+  padding-bottom: 3rem;
+}
 .forside_filtrering_allaround_container {
   padding-bottom: 3rem;
+}
+
+
+/*-------------------------------------------- Singleview - siden -----------------------------------------------------*/
+
+/* fonte */
+
+.navn_garn { 
+  font-family: var(--TitilliumRegular--);
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+  color: var(--red);
+  padding-top: 0.4rem;
+}
+
+.pris_garn {
+  font-family: var(--TitilliumRegular--);
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+  padding-top: 0.2rem;
+}
+
+
+.info_garn {
+  font-family: var(--TitilliumLight--);
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  padding-top: 0.5rem;
+}
+
+.infoinfo {
+  padding-top: 0.7rem;
+}
+
+.button_single {
+  margin-top: 2rem;
+}
+
+.footer_singleview {
+  margin-top: 5rem;
+}
+
+
+/* popup farvemuligheder */
+
+.popup_overskriftgarn {
+  font-family: var(--TitilliumRegular--);
+  color: var(--red);
+  font-size: 2rem;
+}
+
+.close-button-singleview {
+  width: 2rem;
+}
+
+.popup_underoverskriftgarn {
+  font-family: var(--TitilliumRegular--);
+  font-size: 1.2rem;
+  padding-bottom: 1.3rem;
+}
+
+
+.farvemulighederne {
+
 }
 
   /*-------------------------------------------- MEDIA IPAD 810px -----------------------------------------------------*/
@@ -921,11 +1024,76 @@ text-align: center;
 }
 
 
-.sletpadding {
-padding-top: 0;
+
+
+/*-------------------------------------------- Singleview - siden -----------------------------------------------------*/
+
+/* fonte */
+
+.navn_garn { 
+  font-family: var(--TitilliumRegular--);
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+  color: var(--red);
+  padding-top: 0;
 }
 
+.pris_garn {
+  font-family: var(--TitilliumRegular--);
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+  padding-top: 0.2rem;
 }
+
+
+.info_garn {
+  font-family: var(--TitilliumLight--);
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  padding-top: 0.5rem;
+}
+
+.infoinfo {
+  padding-top: 0.7rem;
+}
+
+.button_single {
+  margin-top: 0.5rem;
+}
+
+.footer_singleview {
+  margin-top: 5rem;
+}
+
+
+/* popup farvemuligheder */
+
+.popup_overskriftgarn {
+  font-family: var(--TitilliumRegular--);
+  color: var(--red);
+  font-size: 2rem;
+}
+
+.close-button-singleview {
+  width: 2rem;
+}
+
+.popup_underoverskriftgarn {
+  font-family: var(--TitilliumRegular--);
+  font-size: 1.2rem;
+  padding-bottom: 1.3rem;
+}
+
+
+.farvemulighederne {
+
+}
+
+
+}
+
+
+
 
 
 
@@ -1289,7 +1457,6 @@ text-align: center;
 
 
 
-
 /*-------------------------------------------- Garn - siden -----------------------------------------------------*/
 
 /* section et */
@@ -1352,7 +1519,69 @@ text-align: center;
   padding-top: 0;
 }
 
-  }
+  
+
+
+
+  /*-------------------------------------------- Singleview - siden -----------------------------------------------------*/
+
+/* fonte */
+
+.navn_garn { 
+  
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+  padding-right: 2rem;
+
+}
+
+.pris_garn {
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+  padding-top: 0.2rem;
+}
+
+
+.info_garn {
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  padding-top: 0.8rem;
+}
+
+.infoinfo {
+  padding-top: 0.7rem;
+}
+
+
+
+.footer_singleview {
+  margin-top: 5rem;
+}
+
+
+/* popup farvemuligheder */
+
+.popup_overskriftgarn {
+  font-family: var(--TitilliumRegular--);
+  color: var(--red);
+  font-size: 2rem;
+}
+
+.close-button-singleview {
+  width: 2rem;
+}
+
+.popup_underoverskriftgarn {
+  font-family: var(--TitilliumRegular--);
+  font-size: 1.2rem;
+  padding-bottom: 1.3rem;
+}
+
+}
+
+
+
+
 
 
 
@@ -1498,9 +1727,6 @@ display: flex;
 .menuknap {
   font-size: 1.1rem
 }
-
-
-
 
 
 
@@ -1790,9 +2016,63 @@ text-align: center;
   padding-top: 0;
 }
 
-.sletpadding2 {
-  padding-top: 0;
+
+/*-------------------------------------------- Singleview - siden -----------------------------------------------------*/
+
+/* fonte */
+
+.navn_garn { 
+  
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+  padding-right: 2rem;
+
 }
+
+.pris_garn {
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+  padding-top: 0.2rem;
+}
+
+
+.info_garn {
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  padding-top: 0.8rem;
+}
+
+.infoinfo {
+  padding-top: 0.7rem;
+}
+
+.button_single {
+  margin-top: 1.3rem;
+}
+
+.footer_singleview {
+  margin-top: 5rem;
+}
+
+
+/* popup farvemuligheder */
+
+.popup_overskriftgarn {
+  font-family: var(--TitilliumRegular--);
+  color: var(--red);
+  font-size: 2rem;
+}
+
+.close-button-singleview {
+  width: 2rem;
+}
+
+.popup_underoverskriftgarn {
+  font-family: var(--TitilliumRegular--);
+  font-size: 1.2rem;
+  padding-bottom: 1.3rem;
+}
+
 
 
   }
@@ -1819,12 +2099,75 @@ text-align: center;
     }
 
     .garnprodukt_tekst {
-      font-size: 1.3rem;
+      font-size: 1.5rem;
     }
 
     .forside_filtrering_allaround_container {
       padding-bottom: 5rem;
     }
+
+    .breadcrumb_singleview {
+      padding-top: 6rem;
+    }
+
+
+
+/*-------------------------------------------- Singleview - siden -----------------------------------------------------*/
+
+/* fonte */
+
+.navn_garn { 
+  
+  font-size: 2.4rem;
+  letter-spacing: 0.3rem;
+  padding-right: 2rem;
+
+}
+
+.pris_garn {
+  font-size: 2.2rem;
+  letter-spacing: 0.3rem;
+  padding-top: 0.2rem;
+}
+
+
+.info_garn {
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  padding-top: 0.8rem;
+}
+
+.infoinfo {
+  padding-top: 0.7rem;
+}
+
+.button_single {
+  margin-top: 1.3rem;
+}
+
+.footer_singleview {
+  margin-top: 5rem;
+}
+
+
+/* popup farvemuligheder */
+
+.popup_overskriftgarn {
+  font-family: var(--TitilliumRegular--);
+  color: var(--red);
+  font-size: 2rem;
+}
+
+.close-button-singleview {
+  width: 2rem;
+}
+
+.popup_underoverskriftgarn {
+  font-family: var(--TitilliumRegular--);
+  font-size: 1.2rem;
+  padding-bottom: 1.3rem;
+}
+
 
 
   }
