@@ -293,6 +293,11 @@ color: var(--red);}
   background-color: var(--pink);
  }
 
+ #section_three_pic img {
+ max-width: 25rem;
+ }
+ 
+
 
    /*  section_four */
 
@@ -621,10 +626,112 @@ text-align: center;
   padding-bottom: 1.3rem;
 }
 
+/*-------------------------------------------- Vores historie - siden -----------------------------------------------------*/
 
-.farvemulighederne {
+/* section et */
+/* breadcrumbs */
+
+
+/* section et et */
+.voreshistorie_overskrift {
+  color: var(--red);
+  font-size: 1.7rem;
+  font-family: var(--TitilliumRegular--);
 
 }
+
+.voreshistorie_section1_wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+.voreshistorie_section1_wrapper img {
+  width: 12rem;
+}
+
+.voreshistorie_section1_wrapperwrapper {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: right;
+}
+
+.voreshistorie_section1_wrapperwrapper img {
+width: 20rem;
+
+}
+
+#section_etetet {
+  display: none;
+}
+
+#section_etet {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 2rem;
+}
+
+
+/* section toto  */
+#section_toto {
+  padding-top: 2rem;
+}
+
+
+/* section tretre  */
+#sectiontretre {
+  background-color: var(--beige);
+  display: flex;
+  justify-content: center;
+ align-items: center;
+ padding-left: 1rem;
+ padding-right: 1rem;
+ padding-top: 1.5rem;
+ padding-bottom: 1.5rem;
+
+}
+
+.paragraf_voreshistorie {
+  color: var(--red);
+  font-family: var(--TitilliumLight--);
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+}
+
+/* section fire fire  */
+
+#section_firefire {
+  display: block;
+  justify-content: center;
+ align-items: center;
+ padding-left: 1rem;
+ padding-right: 1rem;
+ padding-top: 1.5rem;
+ padding-bottom: 1.5rem;
+}
+
+.paragraf_voreshistoriesectionfire {
+  padding-top: 1rem;
+}
+
+/* section fem fem  */
+
+/* section sekseks */
+
+#section_seksseks {
+  padding-left: 1rem;;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: block;
+  text-align: center;
+}
+
+.voreshistorie_h2 {
+  color: var(--red);
+  font-size: 1.5rem;
+  font-family: var(--TitilliumRegular--);
+}
+
 
   /*-------------------------------------------- MEDIA IPAD 810px -----------------------------------------------------*/
   /*-------------------------------------------- Forside-siden -----------------------------------------------------*/
@@ -783,6 +890,14 @@ display: flex;
   #section_three_text {
     padding-top: 0;
 
+  }
+
+  #section_three_child {
+    display: flex;
+    gap: 1rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    
   }
 
  #section_three {
@@ -1085,15 +1200,139 @@ text-align: center;
 }
 
 
-.farvemulighederne {
+/*-------------------------------------------- Vores historie - siden -----------------------------------------------------*/
+
+/* section et */
+/* breadcrumbs */
+
+
+/* section et et */
+.voreshistorie_overskrift {
+  color: var(--red);
+  font-size: 2rem;
+  font-family: var(--TitilliumRegular--);
 
 }
 
 
+.voreshistorie_section1_wrapper {
+  display: flex;
+  gap: 2rem;
+}
+
+.voreshistorie_section1_wrapper img {
+  width: 20rem;
+}
+
+.voreshistorie_section1_wrapperwrapper {
+  padding-bottom: -20rem;
+  display: flex;
+  justify-content: right;
+}
+
+.voreshistorie_section1_wrapperwrapper img {
+width: 20rem;
+
+}
+
+#section_etet {
+  display: none;
+}
+#section_etetet {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 180px 180px 180px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 4rem;
+}
+
+.voreshistorie_overskrift_grid {
+  grid-column-start: 3;
+  grid-column-end: 6;
+}
+
+.voreshistorie_img_grid {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  padding-right: 2rem;
+}
+
+.voreshistorie_img_grid2 {
+  grid-column-start: 3;
+  grid-column-end: 6;
+  padding-left: 2rem;
 }
 
 
 
+/* section toto  */
+#section_toto {
+  padding-top: 0;
+}
+
+
+/* section tretre  */
+#sectiontretre {
+  background-color: var(--beige);
+  display: flex;
+  justify-content: center;
+ align-items: center;
+ padding-left: 3rem;
+ padding-right: 3rem;
+ padding-top: 3rem;
+ padding-bottom: 3rem;
+
+}
+
+.paragraf_voreshistorie {
+  color: var(--red);
+  font-family: var(--TitilliumLight--);
+  letter-spacing: 0.1rem;
+  font-size: 1.3rem;
+}
+
+/* section fire fire  */
+
+#section_firefire {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+ align-items: center;
+ padding-left: 1rem;
+ padding-right: 1rem;
+ padding-top: 1.5rem;
+ padding-bottom: 1.5rem;
+}
+
+.paragraf_voreshistoriesectionfire {
+  padding-top: 0;
+  padding-left: 1.5rem;
+}
+
+/* section fem fem  */
+
+/* section sekseks */
+
+#section_seksseks {
+  padding-left: 1rem;;
+  padding-right: 1rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  display: block;
+  text-align: center;
+}
+
+.voreshistorie_h2 {
+  color: var(--red);
+  font-size: 2rem;
+  font-family: var(--TitilliumRegular--);
+}
+
+
+}
 
 
 
@@ -1293,8 +1532,11 @@ display: flex;
     gap: 1.4rem;
     padding-right: 3rem;
     padding-left: 3rem;
-    width: 55rem;
   justify-content: center;
+  }
+
+  .section_three_pic {
+    max-width: 25rem;
   }
 
  .button_nyheder {
@@ -1576,6 +1818,141 @@ text-align: center;
   font-size: 1.2rem;
   padding-bottom: 1.3rem;
 }
+
+
+/*-------------------------------------------- Vores historie - siden -----------------------------------------------------*/
+
+/* section et */
+/* breadcrumbs */
+
+
+/* section et et */
+.voreshistorie_overskrift {
+  color: var(--red);
+  font-size: 3rem;
+  font-family: var(--TitilliumRegular--);
+
+}
+
+
+.voreshistorie_section1_wrapper {
+  display: flex;
+  gap: 2rem;
+}
+
+.voreshistorie_section1_wrapper img {
+  width: 20rem;
+}
+
+.voreshistorie_section1_wrapperwrapper {
+  padding-bottom: -20rem;
+  display: flex;
+  justify-content: right;
+}
+
+.voreshistorie_section1_wrapperwrapper img {
+width: 20rem;
+
+}
+
+#section_etet {
+  display: none;
+}
+#section_etetet {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 180px 180px 180px 180px 100px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 4rem;
+}
+
+.voreshistorie_overskrift_grid {
+  grid-column-start: 3;
+  grid-column-end: 6;
+}
+
+.voreshistorie_img_grid {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  padding-right: 2rem;
+}
+
+.voreshistorie_img_grid2 {
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  padding-left: 2rem;
+}
+
+
+
+/* section toto  */
+#section_toto {
+  padding-top: 0;
+}
+
+
+/* section tretre  */
+#sectiontretre {
+  background-color: var(--beige);
+  display: flex;
+  justify-content: center;
+ align-items: center;
+ padding-left: 5rem;
+ padding-right: 5rem;
+ padding-top: 4rem;
+ padding-bottom: 4rem;
+
+}
+
+.paragraf_voreshistorie {
+  color: var(--red);
+  font-family: var(--TitilliumLight--);
+  letter-spacing: 0.1rem;
+  font-size: 1.5rem;
+}
+
+/* section fire fire  */
+
+#section_firefire {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+ align-items: center;
+ padding-left: 3rem;
+ padding-right: 3rem;
+ padding-top: 3rem;
+ padding-bottom: 3rem;
+}
+
+.paragraf_voreshistoriesectionfire {
+  padding-top: 0;
+  padding-left: 2rem;
+}
+
+/* section fem fem  */
+
+/* section sekseks */
+
+#section_seksseks {
+  padding-left: 1rem;;
+  padding-right: 1rem;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+  display: block;
+  text-align: center;
+}
+
+.voreshistorie_h2 {
+  color: var(--red);
+  font-size: 2.8rem;
+  font-family: var(--TitilliumRegular--);
+}
+
 
 }
 
@@ -2074,6 +2451,139 @@ text-align: center;
 }
 
 
+/*-------------------------------------------- Vores historie - siden -----------------------------------------------------*/
+
+/* section et */
+/* breadcrumbs */
+
+
+/* section et et */
+.voreshistorie_overskrift {
+  color: var(--red);
+  font-size: 3rem;
+  font-family: var(--TitilliumRegular--);
+
+}
+
+
+.voreshistorie_section1_wrapper {
+  display: flex;
+  gap: 2rem;
+}
+
+.voreshistorie_section1_wrapper img {
+  width: 20rem;
+}
+
+.voreshistorie_section1_wrapperwrapper {
+  padding-bottom: -20rem;
+  display: flex;
+  justify-content: right;
+}
+
+.voreshistorie_section1_wrapperwrapper img {
+width: 20rem;
+
+}
+
+#section_etet {
+  display: none;
+}
+#section_etetet {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 180px 180px 180px;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 4rem;
+}
+
+.voreshistorie_overskrift_grid {
+  grid-column-start: 3;
+  grid-column-end: 6;
+}
+
+.voreshistorie_img_grid {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  padding-right: 2rem;
+}
+
+.voreshistorie_img_grid2 {
+  grid-column-start: 3;
+  grid-column-end: 6;
+  padding-left: 2rem;
+}
+
+
+
+/* section toto  */
+#section_toto {
+  padding-top: 4rem;
+}
+
+
+/* section tretre  */
+#sectiontretre {
+  background-color: var(--beige);
+  display: flex;
+  justify-content: center;
+ align-items: center;
+ padding-left: 6rem;
+ padding-right: 6rem;
+ padding-top: 3rem;
+ padding-bottom: 3rem;
+
+}
+
+.paragraf_voreshistorie {
+  color: var(--red);
+  font-family: var(--TitilliumLight--);
+  letter-spacing: 0.1rem;
+  font-size: 1.7rem;
+}
+
+/* section fire fire  */
+
+#section_firefire {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+ align-items: center;
+ padding-left: 6rem;
+ padding-right: 6rem;
+ padding-top: 5rem;
+ padding-bottom: 5rem;
+ gap: 2rem;
+}
+
+.paragraf_voreshistoriesectionfire {
+  padding-top: 0;
+  padding-left: 1.5rem;
+}
+
+/* section fem fem  */
+
+/* section sekseks */
+
+#section_seksseks {
+  padding-left: 1rem;;
+  padding-right: 1rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  display: block;
+  text-align: center;
+}
+
+.voreshistorie_h2 {
+  color: var(--red);
+  font-size: 3rem;
+  font-family: var(--TitilliumRegular--);
+}
+
+
 
   }
 
@@ -2168,6 +2678,154 @@ text-align: center;
   padding-bottom: 1.3rem;
 }
 
+/*-------------------------------------------- Vores historie - siden -----------------------------------------------------*/
+
+/* section et */
+/* breadcrumbs */
+
+.breadcrumb_voreshistorie {
+  padding-top: 6rem;
+}
 
 
+/* section et et */
+.voreshistorie_overskrift {
+  color: var(--red);
+  font-size: 3.6rem;
+  font-family: var(--TitilliumRegular--);
+
+}
+
+
+.voreshistorie_section1_wrapper {
+  display: flex;
+  gap: 2rem;
+}
+
+.voreshistorie_section1_wrapper img {
+  width: 20rem;
+}
+
+.voreshistorie_section1_wrapperwrapper {
+  padding-bottom: -20rem;
+  display: flex;
+  justify-content: right;
+}
+
+.voreshistorie_section1_wrapperwrapper img {
+width: 20rem;
+
+}
+
+#section_etet {
+  display: none;
+}
+#section_etetet {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 180px 180px 180px;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 4rem;
+}
+
+.voreshistorie_overskrift_grid {
+  grid-column-start: 3;
+  grid-column-end: 6;
+}
+
+.voreshistorie_img_grid {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  padding-right: 2rem;
+}
+
+.voreshistorie_img_grid2 {
+  grid-column-start: 3;
+  grid-column-end: 6;
+  padding-left: 2rem;
+}
+
+
+
+/* section toto  */
+#section_toto {
+  padding-top: 5rem;
+}
+
+
+
+/* section tretre  */
+#sectiontretre {
+  background-color: var(--beige);
+  display: flex;
+  justify-content: center;
+ align-items: center;
+ padding-left: 6rem;
+ padding-right: 6rem;
+ padding-top: 3rem;
+ padding-bottom: 3rem;
+
+}
+
+.paragraf_voreshistorie {
+  color: var(--red);
+  font-family: var(--TitilliumLight--);
+  letter-spacing: 0.1rem;
+  font-size: 1.7rem;
+}
+
+/* section fire fire  */
+
+#section_firefire {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+ align-items: center;
+ padding-left: 8rem;
+ padding-right: 8rem;
+ padding-top: 5rem;
+ padding-bottom: 5rem;
+ gap: 2rem;
+}
+
+.paragraf_voreshistoriesectionfire {
+  padding-top: 0;
+  padding-left: 1.5rem;
+}
+
+/* section fem fem  */
+
+/* section sekseks */
+
+#section_seksseks {
+  padding-left: 1rem;;
+  padding-right: 1rem;
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+  display: block;
+  text-align: center;
+}
+
+.voreshistorie_h2 {
+  color: var(--red);
+  font-size: 3.5rem;
+  font-family: var(--TitilliumRegular--);
+}
+
+
+
+  }
+
+
+  @media (min-width: 1500px) {
+
+    #section_toto, #section_femfem {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    /*-------------------------------------------- Garn - siden -----------------------------------------------------*/
   }
