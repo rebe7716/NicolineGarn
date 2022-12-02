@@ -72,6 +72,11 @@
       font-family: var(--TitilliumRegular--);
       font-size: 1.1rem;
       letter-spacing: 0.1rem;
+      cursor: pointer;
+    }
+    a:hover {
+        cursor: pointer;
+        text-decoration: underline;
     }
 
   .heading1red {
@@ -415,7 +420,7 @@ text-align: center;
   justify-items: center;
 text-align: center;
 }
-.search-box {
+#search-box {
 	width: 100%;
   border: 1px solid #ffffffb0;
   outline: 0;
@@ -452,6 +457,7 @@ input::placeholder {
       letter-spacing: 0.1rem;
   color: var(--hvid);
   letter-spacing: 0.1rem;
+  cursor: pointer;
 }
 
 #nyhedsbrev_button_wrapper {
@@ -485,16 +491,25 @@ align-items: center;
     color:var(--sort);
     font-family: var(--TitilliumLight--);
     letter-spacing: 0.1rem;
-    display: grid;
-justify-content: center;
-align-items: center;
-text-align: center;
-}
+    display: inline;
+    text-align: center;
+    }
 
 .footer_text_nederst {
   padding-top: 1.5rem;
+  display: inline;
 }
 
+
+.icon_footer {
+  display: flex;
+  justify-content: center;
+  gap: 0.7rem;
+  padding-bottom: 1rem;
+}
+.icon_footer img {
+  width: 2rem;
+}
 
 
 /*-------------------------------------------- Garn - siden -----------------------------------------------------*/
@@ -544,6 +559,7 @@ text-align: center;
   font-size: 0.9rem;
   letter-spacing: 0.1rem;
   width: 100%;
+  cursor: pointer;
 }
 
 .button_style_garn:hover {
@@ -731,6 +747,106 @@ width: 20rem;
   font-size: 1.5rem;
   font-family: var(--TitilliumRegular--);
 }
+
+
+
+  /*-------------------------------------------- Kontakt os-siden -----------------------------------------------------*/
+
+
+
+
+/* nyhedsbrev box */
+ /* Style inputs with type="text", select elements and textareas */
+ input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid var(--sort); /* Gray border */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+.kontaktformular input::placeholder {
+  opacity: 1;
+  font-size: 0.9rem;
+  color: rgba(128, 128, 128, 0.775);
+    font-family: var(--TitilliumLight--);
+    letter-spacing: 0.1rem;
+}
+
+.kontaktformular textarea::placeholder {
+  opacity: 1;
+  font-size: 0.9rem;
+  color: rgba(128, 128, 128, 0.775);
+    font-family: var(--TitilliumLight--);
+    letter-spacing: 0.1rem;
+}
+
+
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+
+      border: 1px solid #000000;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-left: 22px;
+      padding-right: 22px;
+      text-align: center;
+      font-family: var(--TitilliumRegular--);
+      font-size: 1.1rem;
+      letter-spacing: 0.1rem;
+      cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  color: var(--link-color);
+  border: 1px solid var(--red)
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  padding: 20px;
+  display: block;
+  justify-content: center;
+  text-align: center;
+} 
+
+
+/* section 1 */
+
+#section11 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+#section22{
+display: flex;
+text-align: center;
+padding-top: 1rem;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+.nyhedsbrev_tekst_kontakt {
+  font-size: 0.9rem;
+    color:var(--sort);
+    font-family: var(--TitilliumLight--);
+    letter-spacing: 0.1rem;
+    margin-top: 0.5rem;
+
+}
+
+
+
 
 
   /*-------------------------------------------- MEDIA IPAD 810px -----------------------------------------------------*/
@@ -1054,9 +1170,7 @@ text-align: center;
     padding-right: 1rem;
 padding-top: 2.5rem;
 padding-bottom: 2.5rem;
-display: grid;
-justify-content: center;
-align-items: center;
+
 
   }
 
@@ -1066,14 +1180,12 @@ align-items: center;
     color:var(--sort);
     font-family: var(--TitilliumLight--);
     letter-spacing: 0.1rem;
-    display: grid;
-justify-content: center;
-align-items: center;
-text-align: center;
+  
 }
 
 .footer_text_nederst {
   padding-top: 1.5rem;
+  display: inline;
 }
 
   
@@ -1329,6 +1441,108 @@ width: 20rem;
   color: var(--red);
   font-size: 2rem;
   font-family: var(--TitilliumRegular--);
+}
+
+/*-------------------------------------------- Kontakt os-siden -----------------------------------------------------*/
+
+
+/* nyhedsbrev box */
+ /* Style inputs with type="text", select elements and textareas */
+ .kontaktformular input[type=text], select, textarea {
+  width: 80%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid var(--sort); /* Gray border */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+.kontaktformular input::placeholder {
+  opacity: 1;
+  font-size: 0.9rem;
+  color: rgba(128, 128, 128, 0.775);
+    font-family: var(--TitilliumLight--);
+    letter-spacing: 0.1rem;
+}
+
+.kontaktformular textarea::placeholder {
+  opacity: 1;
+  font-size: 0.9rem;
+  color: rgba(128, 128, 128, 0.775);
+    font-family: var(--TitilliumLight--);
+    letter-spacing: 0.1rem;
+}
+
+.kontaktformular {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+
+      border: 1px solid #000000;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-left: 22px;
+      padding-right: 22px;
+      text-align: center;
+      font-family: var(--TitilliumRegular--);
+      font-size: 1.1rem;
+      letter-spacing: 0.1rem;
+      cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  color: var(--link-color);
+  border: 1px solid var(--red)
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  padding: 20px;
+  display: block;
+  justify-content: center;
+  text-align: center;
+} 
+
+
+/* section 1 */
+
+#section11 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+#section22{
+display: flex;
+text-align: center;
+padding-top: 1rem;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+.nyhedsbrev_tekst_kontakt {
+  font-size: 0.9rem;
+    color:var(--sort);
+    font-family: var(--TitilliumLight--);
+    letter-spacing: 0.1rem;
+    margin-top: 0.5rem;
+
+}
+
+.nyhedsbrev_tekst_kontakt a:hover {
+  color: var(--red)
 }
 
 
@@ -1687,7 +1901,7 @@ align-items: center;
     color:var(--sort);
     font-family: var(--TitilliumLight--);
     letter-spacing: 0.1rem;
-    display: grid;
+    display: inline;
 justify-content: center;
 align-items: center;
 text-align: center;
@@ -1952,6 +2166,112 @@ width: 20rem;
   font-size: 2.8rem;
   font-family: var(--TitilliumRegular--);
 }
+
+
+
+/*-------------------------------------------- Kontakt os-siden -----------------------------------------------------*/
+
+
+/* nyhedsbrev box */
+ /* Style inputs with type="text", select elements and textareas */
+ .kontaktformular input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid var(--sort); /* Gray border */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+.kontaktformular input::placeholder {
+  opacity: 1;
+  font-size: 0.9rem;
+  color: rgba(128, 128, 128, 0.775);
+    font-family: var(--TitilliumLight--);
+    letter-spacing: 0.1rem;
+}
+
+.kontaktformular textarea::placeholder {
+  opacity: 1;
+  font-size: 0.9rem;
+  color: rgba(128, 128, 128, 0.775);
+    font-family: var(--TitilliumLight--);
+    letter-spacing: 0.1rem;
+}
+
+.kontaktformular {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+
+      border: 1px solid #000000;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-left: 22px;
+      padding-right: 22px;
+      text-align: center;
+      font-family: var(--TitilliumRegular--);
+      font-size: 1.1rem;
+      letter-spacing: 0.1rem;
+      cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  color: var(--link-color);
+  border: 1px solid var(--red)
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  padding: 20px;
+  display: block;
+  justify-content: center;
+  text-align: center;
+} 
+
+#kontakt_article {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+/* section 1 */
+
+#section11 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+#section22{
+display: flex;
+text-align: center;
+justify-content: center;
+padding-top: 1rem;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+.nyhedsbrev_tekst_kontakt {
+  font-size: 0.9rem;
+    color:var(--sort);
+    font-family: var(--TitilliumLight--);
+    letter-spacing: 0.1rem;
+    margin-top: 1rem;
+
+}
+
 
 
 }
@@ -2326,7 +2646,7 @@ align-items: center;
     color:var(--sort);
     font-family: var(--TitilliumLight--);
     letter-spacing: 0.1rem;
-    display: grid;
+    display: inline;
 justify-content: center;
 align-items: center;
 text-align: center;
@@ -2584,6 +2904,39 @@ width: 20rem;
 }
 
 
+/*-------------------------------------------- Kontakt os-siden -----------------------------------------------------*/
+
+
+/* nyhedsbrev box */
+ 
+
+
+#kontakt_article {
+  padding-left: 20rem;
+  padding-right: 20rem;
+  padding-top: 2rem;
+}
+
+/* section 1 */
+
+#section11 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+#section22{
+display: flex;
+text-align: center;
+justify-content: center;
+padding-top: 1rem;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+
 
   }
 
@@ -2816,6 +3169,34 @@ width: 20rem;
 }
 
 
+
+/*-------------------------------------------- Kontakt os-siden -----------------------------------------------------*/
+
+
+/* nyhedsbrev box */
+ 
+
+
+#kontakt_article {
+  padding-left: 21rem;
+  padding-right: 21rem;
+  padding-top: 2rem;
+}
+
+/* section 1 */
+
+#section11 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+#section22{
+
+padding-bottom: 3rem;
+}
 
   }
 
