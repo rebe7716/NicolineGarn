@@ -72,12 +72,15 @@
       font-family: var(--TitilliumRegular--);
       font-size: 1.1rem;
       letter-spacing: 0.1rem;
-      cursor: pointer;
     }
     a:hover {
         cursor: pointer;
         text-decoration: underline;
     }
+    
+    body {
+      cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🧶</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
 
   .heading1red {
     font-size: 2rem;
@@ -156,6 +159,7 @@
 
 a:hover, button:hover {
   color: var(--red);
+  cursor: pointer;
 }
 
 .button_style:hover {
@@ -205,7 +209,7 @@ padding-bottom: 0.5rem;
 }
 
 .header_background_wrapper {
-  background-image: url(/pics/herobillede.png);
+  background-image: url(/pics/herobillede.webp);
   background-size: cover;
 }
 
@@ -834,6 +838,8 @@ text-align: center;
 padding-top: 1rem;
 padding-left: 1rem;
 padding-right: 1rem;
+padding-bottom: 3rem;
+
 }
 
 .nyhedsbrev_tekst_kontakt {
@@ -1174,6 +1180,7 @@ padding-bottom: 2.5rem;
 
   }
 
+  
 
   .footer_text {
     font-size: 0.8rem;

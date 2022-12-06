@@ -26,26 +26,7 @@
 
   /* ------- header desk ------- */
   --desk-bg-color-header: transparant;
-  --header-link-color: #0338e1;
 
-  /* header mobile*/
-  --mobile-bg-color-header: transparant;
-  --mobile--link-color: #0338e1;
-  --burger-color-primary: #0338e1;
-  --burger-color-secondary: #051036;
-
-  /* buttons*/
-  --button--bg-color: #0338e1;
-  --button-padding: 0.75rem 2.2rem;
-  --button-gap: 0.6rem;
-  --button-height: 3.2rem;
-  --button-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
-    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
-
-  --button-radius: 0.3rem;
-  --button-transform-animation: scale(0.9);
-
-  --button-color: #fdfdfd;
 
   /* ------- headings ------ */
 
@@ -509,35 +490,6 @@ fieldset {
   box-shadow: var(--button-shadow);
 }
 
-.progress {
-  background-color: rgba(100, 100, 100, 0.2);
-  border-radius: 5px;
-  position: relative;
-  margin: 0 10px;
-  height: 10px;
-  width: 200px;
-}
-
-.singleview_stars {
-  display: flex;
-  justify-content: space-between;
-}
-
-.progress-done {
-  background: var(--button--bg-color);
-  box-shadow: var(--button-shadow);
-  border-radius: 5px;
-  height: 10px;
-  width: 0;
-  transition: width 1s ease 0.3s;
-}
-
-.singleview_stjerner {
-  align-self: center;
-}
-.singleview_h4stars {
-  margin-bottom: 0 !important;
-}
 
 /*------------------------------------------- GODT AT VIDE-siden -------------------------------------------*/
 /*------------------------------------------- Handelsbetingelser-siden -------------------------------------*/
