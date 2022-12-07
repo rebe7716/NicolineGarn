@@ -26,40 +26,41 @@
 <!-- header -->
 
   <section id="section_one" class="header_background_wrapper">
+
+
+    
 <header>
+  <a href="index.html">
+    <img class="logo" src="/pics/nicolinegarn_logo-frigjort.png" alt="logo" />
+  </a>
 
-    <div class="menuen_wrapper"
-    >
-    <div class="logo_wrapper cursor-pointer">
-      <a href="index.html">
-        <img class="logo" src="/pics/nicolinegarn_logo-frigjort.png" alt="logo" />
-      </a>
-    </div>
+  <input class="input_class" id="burger" type="checkbox" />
+  
+  <label class="label_class" for="burger">
+      <span></span>
+      <span></span>
+      <span></span>
+  </label>
+  
+  <nav>    
+    <ul>
+      <li><a href="forside.html">Garn</a></li>
+      <li><a href="#">Tilbehør</a></li>
+      <li class="dropdown">
+        <a href="#" data-toggle="dropdown">Spørgsmål<i class="icon-arrow"></i></a>
+        <ul class="dropdown-menu">
+          <li class="dropdown_indeni"><a href="kontakt.html">Kontakt os</a></li>
+          <li class="dropdown_indeni"><a href="#">Gavekort</a></li>
+          <li class="dropdown_indeni"><a href="#">Retur/bytte</a></li>
+          
+        </ul>
+      </li>
+      <li><a href="voreshistorie.html">Vores historie</a></li>
+    </ul>  
+  </nav>
 
-    <nav class="menuen">
-      <ul class="menumenu flex gap-6 text-base xl:gap-8" id="menu">
-        <li
-          class="menuknap cursor-pointer font-medium xl:text-xl"
-        >
-          <a href="forside.html">Garn</a>
-        </li>
-        <li class="menuknap cursor-pointer font-medium xl:text-xl">
-          <a href="accesories.html">Tilbehør</a>
-        </li>
-        <li class="menuknap cursor-pointer font-medium xl:text-xl">
-          <div class="dropdown menuknap ">
-            <button class="dropbtn">Spørgsmål</button>
-            <div class="dropdown-content">
-              <a href="kontakt.html">Kontakt os</a>
-              <a href="#">Retur/bytte</a>
-              <a href="#">Gavekort</a>
-            </div>
-          </div> 
-        </li>
-        <li class="menuknap cursor-pointer font-medium xl:text-xl">
-          <a href="voreshistorie.html">Vores historie</a>
-        </li>
-      </ul>
+</header>
+
 
     </div>
     </header>
@@ -116,7 +117,10 @@
   <section id="section_four">
 <div id="section_four_indhold">
     <h2 class="heading3" id="section_four_enbid">En lille bid af butikken</h2>
-    <video src=""></video>
+    <div class="iframe-wrapper">
+      <iframe width="560" height="315" allowfullscreen src="https://www.youtube.com/embed/-nxs1uyHS_c">
+</iframe>
+  </div>
   </div>
 
   </section>
@@ -203,7 +207,7 @@
 
  <!-- script -->
   
-
+<script src="/script/dropdown.js"></script>
 
 
     <!-- body slut -->

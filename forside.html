@@ -23,7 +23,42 @@
 
 
   <section id="section_one" class="">
-<header>
+
+
+
+    <header>
+      <a href="index.html">
+        <img class="logo" src="/pics/nicolinegarn_logo-frigjort.png" alt="logo" />
+      </a>
+    
+      <input class="input_class" id="burger" type="checkbox" />
+      
+      <label class="label_class" for="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+      </label>
+      
+      <nav>    
+        <ul>
+          <li><a href="forside.html">Garn</a></li>
+          <li><a href="#">Tilbehør</a></li>
+          <li class="dropdown">
+            <a href="#" data-toggle="dropdown">Spørgsmål<i class="icon-arrow"></i></a>
+            <ul class="dropdown-menu">
+              <li class="dropdown_indeni"><a href="kontakt.html">Kontakt os</a></li>
+              <li class="dropdown_indeni"><a href="#">Gavekort</a></li>
+              <li class="dropdown_indeni"><a href="#">Retur/bytte</a></li>
+              
+            </ul>
+          </li>
+          <li><a href="voreshistorie.html">Vores historie</a></li>
+        </ul>  
+      </nav>
+    
+    </header>
+
+<!-- <header>
 
     <div class="menuen_wrapper"
     >
@@ -60,7 +95,7 @@
       </nav>
 
     </div>
-    </header>
+    </header> -->
 
 
     <!-- main -->
@@ -205,8 +240,8 @@
                     <h3 class="h3_overfiltrering_mobil">Sortering</h3>
                     <select name="hojlav" id="hojlav1">
                       <option value="alle" data-filter="all">Alle</option>
-                      <option value="høj" data-sort="name:asc">Højeste til laveste pris</option>
-                      <option value="sort" data-sort="name:desc">Laveste til højeste pris</option>
+                      <option value="høj" data-sort="name:asc">Laveste til højeste pris</option>
+                      <option value="sort" data-sort="name:desc">Højeste til laveste pris</option>
                     </select>
                   </fieldset>
                 </div>
@@ -403,10 +438,10 @@
         
 
     <!-- script -->
-    <script src="/script/login.js"></script>
+  
+    <script src="/script/dropdown.js"></script>
     <script src="/script/mixitup.min.js" defer></script>
     <script src="/script/mixitupinit.js" defer></script>
-    <script src="/script/typetxt.js"></script>
     
 
     <!-- body slut -->

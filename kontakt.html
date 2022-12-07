@@ -24,46 +24,40 @@
         <!-- header -->
         
           <section id="section_one" class="">
+
+
             <header>
-        
-                <div class="menuen_wrapper"
-                >
-                  <div class="logo_wrapper">
-                    <a href="index.html">
-                      <img class="logo" src="/pics/nicolinegarn_logo-frigjort.png" alt="logo" />
-                    </a>
-                  </div>
+              <a href="index.html">
+                <img class="logo" src="/pics/nicolinegarn_logo-frigjort.png" alt="logo" />
+              </a>
             
-                  <nav class="menuen">
-                    <ul class="menumenu flex gap-6 text-base xl:gap-8" id="menu">
-                      <li
-                        class="menuknap cursor-pointer font-medium xl:text-xl"
-                      >
-                        <a href="forside.html">Garn</a>
-                      </li>
-                      <li class="menuknap cursor-pointer font-medium xl:text-xl">
-                        <a href="accesories.html">Tilbehør</a>
-                      </li>
-                      <li class="menuknap cursor-pointer font-medium xl:text-xl">
-                        <div class="dropdown menuknap ">
-                          <button class="dropbtn">Spørgsmål</button>
-                          <div class="dropdown-content">
-                            <a href="kontakt.html">Kontakt os</a>
-                            <a href="#">Retur/bytte</a>
-                            <a href="#">Gavekort</a>
-                          </div>
-                        </div> 
-                      </li>
-                      <li class="menuknap cursor-pointer font-medium xl:text-xl">
-                        <a href="voreshistorie.html">Vores historie</a>
-                      </li>
+              <input class="input_class" id="burger" type="checkbox" />
+              
+              <label class="label_class" for="burger">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </label>
+              
+              <nav>    
+                <ul>
+                  <li><a href="forside.html">Garn</a></li>
+                  <li><a href="#">Tilbehør</a></li>
+                  <li class="dropdown">
+                    <a href="#" data-toggle="dropdown">Spørgsmål<i class="icon-arrow"></i></a>
+                    <ul class="dropdown-menu">
+                      <li class="dropdown_indeni"><a href="kontakt.html">Kontakt os</a></li>
+                      <li class="dropdown_indeni"><a href="#">Gavekort</a></li>
+                      <li class="dropdown_indeni"><a href="#">Retur/bytte</a></li>
+                      
                     </ul>
-                  </nav>
+                  </li>
+                  <li><a href="voreshistorie.html">Vores historie</a></li>
+                </ul>  
+              </nav>
             
-                </div>
-                </header>
-        
-         <!-- main -->
+            </header>
+            
             <main>
         
                 <!-- breadcrums på singleview -->
@@ -141,6 +135,10 @@
                 
                 </section>
             </footer>
+
+            <!-- script -->
+  
+            <script src="/script/dropdown.js"></script>
 
             
             

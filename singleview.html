@@ -23,7 +23,40 @@
 
 
   <section id="section_one" class="">
-<header>
+
+
+    <header>
+      <a href="index.html">
+        <img class="logo" src="/pics/nicolinegarn_logo-frigjort.png" alt="logo" />
+      </a>
+    
+      <input class="input_class" id="burger" type="checkbox" />
+      
+      <label class="label_class" for="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+      </label>
+      
+      <nav>    
+        <ul>
+          <li><a href="forside.html">Garn</a></li>
+          <li><a href="#">Tilbehør</a></li>
+          <li class="dropdown">
+            <a href="#" data-toggle="dropdown">Spørgsmål<i class="icon-arrow"></i></a>
+            <ul class="dropdown-menu">
+              <li class="dropdown_indeni"><a href="kontakt.html">Kontakt os</a></li>
+              <li class="dropdown_indeni"><a href="#">Gavekort</a></li>
+              <li class="dropdown_indeni"><a href="#">Retur/bytte</a></li>
+              
+            </ul>
+          </li>
+          <li><a href="voreshistorie.html">Vores historie</a></li>
+        </ul>  
+      </nav>
+    
+    </header>
+<!-- <header>
 
     <div class="menuen_wrapper"
     >
@@ -60,7 +93,7 @@
       </nav>
 
     </div>
-    </header>
+    </header> -->
 
 
     <body>
@@ -177,7 +210,14 @@
     <script src="/script/productgallery.js"></script>
     <script src="/script/popup.js"></script>
     
+  <!-- script -->
+  
+  <script src="/script/dropdown.js"></script>
+
+
     <!-- body slut -->
+
+
   </body>
 </html>
 
